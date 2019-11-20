@@ -20,6 +20,7 @@ import com.stimulsoft.report.utils.data.StiDataColumnsUtil;
 import com.stimulsoft.report.utils.data.StiSqlField;
 import com.stimulsoft.report.utils.data.StiXmlTable;
 import com.stimulsoft.report.utils.data.StiXmlTableFieldsRequest;
+import com.stimulsoft.web.classes.StiRequestParams;
 import com.stimulsoft.webdesigner.StiWebDesigerHandler;
 import com.stimulsoft.webdesigner.StiWebDesignerOptions;
 
@@ -91,17 +92,22 @@ public class StiWebDesignerBean {
                 }
             }
 
-            public void onSaveReportTemplate(StiReport report, String reportName, HttpServletRequest request) {
-                try {
-                    String savePath = request.getSession().getServletContext().getRealPath("/save/");
-                    FileOutputStream fos = new FileOutputStream(savePath + reportName);
-                    StiSerializeManager.serializeReport(report, fos);
-                    fos.flush();
-                    fos.close();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
+            @Override
+			public void onSaveReportTemplate(StiReport report, StiRequestParams requestParams,
+					HttpServletRequest request) {
+				try {
+	                FileOutputStream fos = new FileOutputStream(requestParams.designer.fileName);
+	                if (requestParams.designer.password != null) {
+	                    StiSerializeManager.serializeReport(report, fos, requestParams.designer.password);
+	                } else {
+	                    StiSerializeManager.serializeReport(report, fos, true);
+	                }
+	                fos.close();
+	            } catch (Exception e) {
+	                e.printStackTrace();
+	            }
+				
+			}
         };
         return handler;
     }

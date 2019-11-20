@@ -12,8 +12,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.5.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -22,7 +22,13 @@
 		<dependency>
 			<groupId>com.stimulsoft</groupId>
 			<artifactId>stimulsoft-reports-libs</artifactId>
-			<version>2017.1.1</version>
+			<version>2019.4.2</version>
 		</dependency>
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>javax.faces-api</artifactId>
+			<version>2.3</version>
+			<scope>provided</scope>
+		</dependency>	
 	</dependencies>
 </project>

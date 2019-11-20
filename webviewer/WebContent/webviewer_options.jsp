@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<%@page import="com.stimulsoft.web.enums.StiContentAlignment"%>
 <%@page import="com.stimulsoft.web.enums.StiWebViewMode"%>
 <%@page import="com.stimulsoft.lib.utils.StiValidationUtil"%>
-<%@page import="com.stimulsoft.webviewer.enums.StiContentAlignment"%>
 <%@page import="com.stimulsoft.base.drawing.StiColor"%>
 <%@page import="java.io.FileInputStream"%>
 <%@page import="java.io.BufferedInputStream"%>
