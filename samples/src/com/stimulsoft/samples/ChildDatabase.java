@@ -1,6 +1,7 @@
 package com.stimulsoft.samples;
 
 import com.stimulsoft.base.exception.StiException;
+import com.stimulsoft.report.StiReport;
 import com.stimulsoft.report.dictionary.data.DataRow;
 import com.stimulsoft.report.dictionary.data.DataTable;
 import com.stimulsoft.report.dictionary.dataSources.StiDataStoreSource;
@@ -34,6 +35,16 @@ public class ChildDatabase extends StiDatabase {
 
     public void connect(StiDataStoreSource stiDataStoreSource) throws StiException {
         connect(stiDataStoreSource, true);
+    }
+
+    @Override
+    public void connect(StiDataStoreSource stiDataStoreSource, StiReport report) throws StiException {
+        connect(stiDataStoreSource);
+    }
+
+    @Override
+    public void connect(StiDataStoreSource source, Boolean fillTable, StiReport report) throws StiException {
+        connect(source);
     }
 
 }

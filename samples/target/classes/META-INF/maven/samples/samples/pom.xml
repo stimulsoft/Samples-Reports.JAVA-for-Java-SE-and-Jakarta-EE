@@ -41,12 +41,12 @@
 		<dependency>
 			<groupId>com.stimulsoft</groupId>
 			<artifactId>stimulsoft-reports-libs</artifactId>
-			<version>2017.1.11</version>
+			<version>2021.3.2</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
+			<version>[8.0.16,)</version>
 		</dependency>
 	</dependencies>
 </project>

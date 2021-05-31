@@ -51,7 +51,7 @@ public class CreateReportWithMySQLDatabaseInRuntime {
         Class.forName(adapter.getDriverName());
         Connection con = com.stimulsoft.webdesigner.helper.StiDictionaryHelper.getConnection(adapter.getJdbcParameters());
         StiTableFieldsRequest request = StiDataColumnsUtil.getFields(con, source.getQuery(), source);
-        for (StiSqlField field : request.getColunns()) {
+        for (StiSqlField field : request.getColumns()) {
             source.getColumns().add(new StiDataColumn(field.getName(), field.getName(), field.getSystemType()));
         }
 
