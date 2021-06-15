@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>com.stimulsoft</groupId>
 			<artifactId>stimulsoft-reports-libs</artifactId>
-			<version>2021.3.4</version>
+			<version>stimulsoftversion</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>

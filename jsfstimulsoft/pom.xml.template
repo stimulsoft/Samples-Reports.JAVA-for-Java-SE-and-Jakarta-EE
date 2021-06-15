@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>webviewer</groupId>
-	<artifactId>webviewer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>	
+	<groupId>jsfstimulsoft</groupId>
+	<artifactId>jsfstimulsoft</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -22,7 +22,22 @@
 		<dependency>
 			<groupId>com.stimulsoft</groupId>
 			<artifactId>stimulsoft-reports-libs</artifactId>
-			<version>2021.3.4</version>
+			<version>stimulsoftversion</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>javax.faces-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-api</artifactId>
+			<version>2.2.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-impl</artifactId>
+			<version>2.2.9</version>
 		</dependency>
 	</dependencies>
 </project>
