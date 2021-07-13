@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Localization language="Czech" description="Čeština" cultureName="cz">
+<Localization language="Czech" description="Čeština" cultureName="cs">
   <A_WebViewer>
     <DayFriday>Pátek</DayFriday>
     <DayMonday>Pondělí</DayMonday>
@@ -30,7 +30,7 @@
     <PreviousPage>Předchozí stránka</PreviousPage>
     <PrintContinue>Pro pokračování klikněte na Tisk</PrintContinue>
     <PrintReport>Tisk</PrintReport>
-    <PrintToPdf>Tisk do PDF</PrintToPdf>
+    <PrintToPdf>PDF</PrintToPdf>
     <PrintToXps>Tisk do XPS</PrintToXps>
     <PrintWithoutPreview>Tisk bez náhledu</PrintWithoutPreview>
     <PrintWithPreview>Tisk s náhledem</PrintWithPreview>
@@ -50,13 +50,13 @@
     <AdapterFirebirdConnection>Data z Firebird připojení</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data z Informix Connection</AdapterInformixConnection>
     <AdapterMySQLConnection>Data z MySQL připojení</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Data z Odbc připojení</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Data z OleDb připojení</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Data z ODBC připojení</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Data z OLE DB připojení</AdapterOleDbConnection>
     <AdapterOracleConnection>Data z Oracle připojení</AdapterOracleConnection>
     <AdapterOracleODPConnection>Data z Oracle ODP.NET Connection</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Data z PostgreSQL připojení</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Data z SqlCe připojení</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Data z Sql připojení</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Data z SQLCe připojení</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Data z SQL připojení</AdapterSqlConnection>
     <AdapterSQLiteConnection>Data z SQLite připojení</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Data z Teradata připojení</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Data z Uni Direct připojení</AdapterUniDirectConnection>
@@ -228,10 +228,10 @@
     <AxesTicksMinor>Vedlejší</AxesTicksMinor>
     <AxesTicksNone>Žádné</AxesTicksNone>
     <AxesVisible>Viditilné</AxesVisible>
-    <AxesXAxis>Osa x</AxesXAxis>
-    <AxesXTopAxis>Maximum na ose x</AxesXTopAxis>
-    <AxesYAxis>Osa y</AxesYAxis>
-    <AxesYRightAxis>Maximum na ose y</AxesYRightAxis>
+    <AxesXAxis>Osa X</AxesXAxis>
+    <AxesXTopAxis>Osa X Horní</AxesXTopAxis>
+    <AxesYAxis>Osa Y</AxesYAxis>
+    <AxesYRightAxis>Osa Y Pravá</AxesYRightAxis>
     <CenterLabels>Střed</CenterLabels>
     <ChangeType>Změnit typ</ChangeType>
     <GridLines>Řádky mřížky</GridLines>
@@ -374,7 +374,7 @@
     <DatabaseFirebird>Firebird připojení</DatabaseFirebird>
     <DatabaseInformix>Informix Connection</DatabaseInformix>
     <DatabaseMySQL>MySQL připojení</DatabaseMySQL>
-    <DatabaseOdbc>Odbc připojení</DatabaseOdbc>
+    <DatabaseOdbc>ODBC připojení</DatabaseOdbc>
     <DatabaseOleDb>OleDB připojení</DatabaseOleDb>
     <DatabaseOracle>Oracle připojení</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET Connection</DatabaseOracleODP>
@@ -385,7 +385,7 @@
     <DatabaseTeradata>Teradata připojení</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct připojení</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB připojení</DatabaseVistaDB>
-    <DatabaseXml>Xml Data</DatabaseXml>
+    <DatabaseXml>XML Data</DatabaseXml>
   </Database>
   <DesignerFx>
     <CanNotLoadThisReportTemplate>Nelze načíst šablonu sestavy!</CanNotLoadThisReportTemplate>
@@ -482,7 +482,7 @@
     <FileNotFound>Soubor "{0}" nenalezen.</FileNotFound>
     <IdentifierIsNotValid>Identifikátor '{0}' není platný.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Nelze nalézt Datový zdroj.</ImpossibleFindDataSource>
-    <NameExists>Komponenta se jménem '{0}' již existuje. Komponenty musí mít jedinečná jména a jména musí být case-insensitive.</NameExists>
+    <NameExists>Komponenta se jménem '{0}' již existuje. Komponenty musí mít jedinečná jména.</NameExists>
     <NoServices>Služby nenalezeny v '{0}'</NoServices>
     <NotAssign>Datový zdroj není specifikován.</NotAssign>
     <NotCorrectFormat>Vstupní řetězec má špatný formát.</NotCorrectFormat>
@@ -510,7 +510,7 @@
     <DotMatrixMode>Režim matice bodů</DotMatrixMode>
     <EmbeddedFonts>Vložená písma</EmbeddedFonts>
     <Encoding>Kódování:</Encoding>
-    <EncryptionError>Chyba šifrování v kroce</EncryptionError>
+   <EncryptionError>Chyba šifrování v kroce</EncryptionError>
     <EscapeCodes>Escape sekvenční znaky</EscapeCodes>
     <ExportDataOnly>Exportovat pouze data</ExportDataOnly>
     <ExportEachPageToSheet>Exportovat každou stránku na list</ExportEachPageToSheet>
@@ -547,7 +547,7 @@
     <ExportTypeSvgzFile>Komprimovaný SVG (SVGZ) soubor...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Symbolic Link (SYLK) Soubor...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF obrázek...</ExportTypeTiffFile>
-    <ExportTypeTxtFile>Texttový soubor...</ExportTypeTxtFile>
+    <ExportTypeTxtFile>Textový soubor...</ExportTypeTxtFile>
     <ExportTypeWord2007File>Microsoft Word soubor...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenOfficeDokument Writer soubor...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML soubor...</ExportTypeXmlFile>
@@ -598,6 +598,7 @@
   </Export>
   <FileFilters>
     <AllImageFiles>Všechny soubory obrázků</AllImageFiles>
+    <AllFiles>Všechny soubory</AllFiles>
     <BitmapFiles>Bitmapové soubory</BitmapFiles>
     <BmpFiles>BMP obrázek (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenOfficeDokument Calc soubory (*.ods)|*.ods</CalcFiles>
@@ -619,7 +620,7 @@
     <GifFiles>GIF obrázek (*.gif)|*.gif</GifFiles>
     <HtmlFiles>HTML Soubory (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} soubory pro zděděné sestavy (*.{1})|*.{2}</InheritedLanguageFiles>
-    <JpegFiles>JPEG obrázek (*.jpeg)|*.jpeg</JpegFiles>
+    <JpegFiles>JPEG obrázek (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <LanguageFiles>{0} soubory (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} soubory pro Silverlight reporty (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta soubory</MetaFiles>
@@ -640,7 +641,7 @@
     <SylkFiles>SYLK soubory (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TIFF obrázek (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Text (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Word 2007/2013 soubory (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Word 2007-2016 soubory (*.docx)|*.docx</Word2007Files>
     <WriterFiles>OpenOfficeDokument Writer soubory (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML soubory (*.xml)|*.xml</XmlFiles>
     <XpsFiles>XPS soubory (*.xps)|*.xps</XpsFiles>
@@ -676,6 +677,16 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>dd/MM/yyyy</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
     <time01>t</time01>
     <time02>T</time02>
     <time03>HH:mm</time03>
@@ -741,10 +752,10 @@
     <MySQLEdit>Upravit MySQL připojení</MySQLEdit>
     <MySQLNew>Nové MySQL připojení</MySQLNew>
     <NewConnection>Nové {0} Connection</NewConnection>
-    <OdbcEdit>Upravit Odbc připojení</OdbcEdit>
-    <OdbcNew>Nové Odbc připojení</OdbcNew>
-    <OleDbEdit>Upravit OleDb připojení</OleDbEdit>
-    <OleDbNew>Nové OleDb připojení</OleDbNew>
+    <OdbcEdit>Upravit ODBC připojení</OdbcEdit>
+    <OdbcNew>Nové ODBC připojení</OdbcNew>
+    <OleDbEdit>Upravit OLE DB připojení</OleDbEdit>
+    <OleDbNew>Nové OLE DB připojení</OleDbNew>
     <OracleEdit>Upravit Oracle připojení</OracleEdit>
     <OracleNew>Nové Oracle připojení</OracleNew>
     <OracleODPEdit>Editovat Oracle ODP.NET Connection</OracleODPEdit>
@@ -756,20 +767,21 @@
     <PromptUserNameAndPassword>Zadej uživatelské jméno a heslo</PromptUserNameAndPassword>
     <SqlCeEdit>Editace SQLServerCE spojení</SqlCeEdit>
     <SqlCeNew>Nové SQLServerCE spojení</SqlCeNew>
-    <SqlEdit>Upravit Sql připojení</SqlEdit>
+    <SqlEdit>Upravit SQL připojení</SqlEdit>
     <SQLiteEdit>Editovat SQLite připojení</SQLiteEdit>
     <SQLiteNew>Nové SQLite připojení</SQLiteNew>
-    <SqlNew>Nové Sql připojení</SqlNew>
+    <SqlNew>Nové SQL připojení</SqlNew>
     <TeradataEdit>Upravit Teradata připojení</TeradataEdit>
     <TeradataNew>Nové Teradata připojení</TeradataNew>
     <UniDirectEdit>Editovat Uni Direct připojení</UniDirectEdit>
     <UniDirectNew>Nové Uni Direct připojení</UniDirectNew>
     <VistaDBEdit>Upravit VistaDB připojení</VistaDBEdit>
     <VistaDBNew>Nové VistaDB připojení</VistaDBNew>
-    <XmlEdit>Upravit Xml data</XmlEdit>
-    <XmlNew>Nová Xml data</XmlNew>
+    <XmlEdit>Upravit XML data</XmlEdit>
+    <XmlNew>Nová XML data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Ostatní</Others>
     <Code>Kód</Code>
     <ColumnsOne>Jeden</ColumnsOne>
     <ColumnsThree>Tři</ColumnsThree>
@@ -792,7 +804,7 @@
     <ShowDescription>Zobrazit popis</ShowDescription>
     <SLPreview>Silverlight náhled</SLPreview>
     <title>Návrhář</title>
-    <WebPreview>Webový náhled</WebPreview>
+    <WebPreview>Flash náhled</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Akce</Actions>
@@ -897,7 +909,7 @@
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>Automatické ukládání</AutoSave>
-    <AutoSaveReportToReportClass>Automatické uložení sestavy do C# or VB.Net souboru</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Automatické uložení sestavy do C# or VB.NET souboru</AutoSaveReportToReportClass>
     <Default>Výchozí</Default>
     <Drawing>Vykreslování</Drawing>
     <DrawMarkersWhenMoving>Vykreslit obrysy při přesouvání</DrawMarkersWhenMoving>
@@ -914,11 +926,11 @@
     <GridMode>Mód zobrazení mřížky</GridMode>
     <GridSize>Velikost mřížky</GridSize>
     <groupAutoSaveOptions>Možnosti atutomatického ukládání</groupAutoSaveOptions>
-    <groupColorScheme>Vyberte barevné schéma pro Gui</groupColorScheme>
+    <groupColorScheme>Vyberte barevné schéma pro GUI</groupColorScheme>
     <groupGridDrawingOptions>Možnosti gridu pro kreslení</groupGridDrawingOptions>
     <groupGridOptions>Možnosti gridu</groupGridOptions>
     <groupGridSize>Velikost gridu</groupGridSize>
-    <groupMainOptions>Hlavní možnosti pro práci s report designerem</groupMainOptions>
+    <groupMainOptions>Hlavní možnosti pro práci s designerem</groupMainOptions>
     <groupMarkersStyle>Styl označovače</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Možnosti rychlé nápovědy</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Vyberte typ GUI</groupPleaseSelectTypeOfGui>
@@ -1062,7 +1074,7 @@
     <PagesManagerForm>Správce stránek</PagesManagerForm>
     <PromptForm>Zadej informace pro nalogování do databáze</PromptForm>
     <ServiceSelectForm>Vybrat službu</ServiceSelectForm>
-    <SqlExpressionsForm>Sql výrazy</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL výrazy</SqlExpressionsForm>
     <SubReportPageSelectForm>Zvolit stránky podsestavy</SubReportPageSelectForm>
     <TextEditorForm>Editor textu</TextEditorForm>
     <ViewDataForm>Zobrazit data</ViewDataForm>
@@ -1105,7 +1117,7 @@
     <Print>Tisknout...</Print>
     <qnPageDelete>Opravdu chcete smazat stránku?</qnPageDelete>
     <Save>Uložit...</Save>
-    <SendEMail>Poslat Email...</SendEMail>
+    <SendEMail>Poslat E-Mail...</SendEMail>
     <StatusBar>Stavový řádek</StatusBar>
     <Thumbnails>Miniatury</Thumbnails>
     <title>Náhled</title>
@@ -1441,7 +1453,7 @@
     <Parameters>Zobrazit parametry panelu, který je používán pro generování reportu.</Parameters>
     <Print>Tisknout report.</Print>
     <Save>Uložit report pro pozdější použití.</Save>
-    <SendEMail>Poslat report Emailem.</SendEMail>
+    <SendEMail>Poslat report e-mailem.</SendEMail>
     <Thumbnails>Zobrazit náhledy obrázků k rychlému nalezenení sekce reportu, na který se chcete přepnout.</Thumbnails>
     <ToolEditor>Tento nástroj umožňuje editaci obsahu textu komponent přímo v prohlížeči reportu.</ToolEditor>
     <ViewModeContinuous>Zobrazí všechny stránky reportu jako pás karet.</ViewModeContinuous>
@@ -2012,13 +2024,13 @@
     <StiMarkerTypeStar5>Hvězda 5</StiMarkerTypeStar5>
     <StiMarkerTypeStar6>Hvězda 6</StiMarkerTypeStar6>
     <StiMarkerTypeStar7>Hvězda 7</StiMarkerTypeStar7>
-    <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
+    <StiMarkerTypeStar8>Hvězda 8</StiMarkerTypeStar8>
     <StiMarkerTypeTriangle>Trojúhelník</StiMarkerTypeTriangle>
     <StiNestedFactorHigh>High (vrchol)</StiNestedFactorHigh>
     <StiNestedFactorLow>Low (Dno)</StiNestedFactorLow>
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
-    <StiNumberOfPassDoublePass>Double Pass</StiNumberOfPassDoublePass>
-    <StiNumberOfPassSinglePass>Single Pass</StiNumberOfPassSinglePass>
+    <StiNumberOfPassDoublePass>Jednou</StiNumberOfPassDoublePass>
+    <StiNumberOfPassSinglePass>Vakrát</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Horizontální</StiOrientationHorizontal>
     <StiOrientationVertical>Vertikální</StiOrientationVertical>
     <StiPageOrientationLandscape>Na šířku</StiPageOrientationLandscape>
@@ -2096,8 +2108,8 @@
     <StiSeriesSortTypeArgument>Argument</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>Žádný</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Hodnota</StiSeriesSortTypeValue>
-    <StiSeriesYAxisLeftYAxis>Levá Y osa</StiSeriesYAxisLeftYAxis>
-    <StiSeriesYAxisRightYAxis>Pravá Y osa</StiSeriesYAxisRightYAxis>
+    <StiSeriesYAxisLeftYAxis>Osa Y Levá</StiSeriesYAxisLeftYAxis>
+    <StiSeriesYAxisRightYAxis>Osa Y Pravá</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Dolů</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Vlevo</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Vpravo</StiShapeDirectionRight>
@@ -2336,7 +2348,7 @@
     <Antialiasing>Antialiasing</Antialiasing>
     <Area>Oblast</Area>
     <Argument>Argument</Argument>
-    <ArgumentDataColumn>Argument Data slopuec</ArgumentDataColumn>
+    <ArgumentDataColumn>Argument datového sloupce</ArgumentDataColumn>
     <ArrowHeight>Výška šipky</ArrowHeight>
     <ArrowStyle>Styl šipky</ArrowStyle>
     <ArrowWidth>Šířka šipky</ArrowWidth>
@@ -2434,7 +2446,7 @@
     <ContinuousText>Souvislý text</ContinuousText>
     <ContourColor>barva obrysu</ContourColor>
     <Converting>Konverze</Converting>
-    <ConvertNulls>Convert Nulls</ConvertNulls>
+    <ConvertNulls>Konvertovat NULL hodnoty</ConvertNulls>
     <Copies>kopie</Copies>
     <Count>Počet</Count>
     <CountData>Počet prvků</CountData>
@@ -2467,7 +2479,7 @@
     <DialogResult>Výsledek dialogu</DialogResult>
     <Diameter>Průměr</Diameter>
     <Direction>Směr</Direction>
-    <DisplayValue>Display Value</DisplayValue>
+    <DisplayValue>Zobrazovaná hodnota</DisplayValue>
     <Distance>Vzdálenost</Distance>
     <DistanceBetweenTabs>Vzdálenost mezi Taby</DistanceBetweenTabs>
     <Dock>Ukotvení</Dock>
@@ -2502,7 +2514,7 @@
     <EnumeratorType>Typ enumerátoru</EnumeratorType>
     <ErrorCorrectionLevel>Úroveň korekce chyby</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Úroveň korekce chyb</ErrorsCorrectionLevel>
-    <EvenStyle>Styl události</EvenStyle>
+    <EvenStyle>Styl sudého řádku</EvenStyle>
     <ExcelSheet>List Excelu</ExcelSheet>
     <ExcelValue>Excel hodnota</ExcelValue>
     <Exponential>Exponenciální</Exponential>
@@ -2573,7 +2585,7 @@
     <HideSeriesWithEmptyTitle>Skrýt Řady s nevyplňeným názvem</HideSeriesWithEmptyTitle>
     <HideZeros>Skrýt nuly</HideZeros>
     <High>Horní</High>
-    <HighlightCondition>Podmínka zvýrzanění</HighlightCondition>
+    <HighlightCondition>Podmínka zvýraznění</HighlightCondition>
     <HorAlignment>Vodorovné zarovnání</HorAlignment>
     <HorSpacing>Horizontální rozteč</HorSpacing>
     <HotkeyPrefix>Klávesová zkratka</HotkeyPrefix>
@@ -2613,8 +2625,8 @@
     <KeepCrossTabTogether>Udržuj křížové tabulky společně</KeepCrossTabTogether>
     <KeepDetailsTogether>Nechat detaily pohromadě</KeepDetailsTogether>
     <KeepFooterTogether>Seskupit zápatí</KeepFooterTogether>
-    <KeepGroupFooterTogether>Nechat skupinové záhlaví pohromadě</KeepGroupFooterTogether>
-    <KeepGroupHeaderTogether>Nechat skupinová zápatí pohromadě</KeepGroupHeaderTogether>
+    <KeepGroupFooterTogether>Nechat skupinové zápatí pohromadě</KeepGroupFooterTogether>
+    <KeepGroupHeaderTogether>Nechat skupinová záhlaví pohromadě</KeepGroupHeaderTogether>
     <KeepGroupTogether>Seskupit skupinu</KeepGroupTogether>
     <KeepHeaderTogether>Seskupit záhlaví</KeepHeaderTogether>
     <KeepReportSummaryTogether>Nechat shrnutí reportu pohromadě</KeepReportSummaryTogether>
@@ -2698,7 +2710,7 @@
     <MinSize>Minimální velikost</MinSize>
     <MinValue>Min. hodnota</MinValue>
     <MinWidth>Min. šířka</MinWidth>
-    <Mode>Mód</Mode>
+   <Mode>Mód</Mode>
     <Module>Modul</Module>
     <Move>Posun</Move>
     <Multiline>Víceřádkový</Multiline>
@@ -2720,7 +2732,7 @@
     <NumberOfCopies>Počet kopií</NumberOfCopies>
     <NumberOfPass>Number of Pass</NumberOfPass>
     <NumberOfValues>Počet hodnot</NumberOfValues>
-    <OddStyle>Zvláštní styl</OddStyle>
+    <OddStyle>Styl lichého řádku</OddStyle>
     <OnlyText>Pouze Text</OnlyText>
     <Operation>Operace</Operation>
     <Options>Možnosti</Options>
@@ -2845,7 +2857,7 @@
     <ShowLabels>Zobrazit štítky</ShowLabels>
     <ShowLabelText>Zobrazit text štítku</ShowLabelText>
     <ShowMarker>Zobrazit značku</ShowMarker>
-    <ShowNulls>Zobrazovat Nulls</ShowNulls>
+    <ShowNulls>Zobrazovat NULL hodnoty</ShowNulls>
     <ShowOnZeroValues>Zobrazit nulové hodnoty</ShowOnZeroValues>
     <ShowOthers>Zobrazovat ostatní</ShowOthers>
     <ShowPercents>Zobrazit procenta</ShowPercents>
@@ -2858,9 +2870,9 @@
     <ShowUpDown>Zobrazit nahoru dolů</ShowUpDown>
     <ShowValue>Zobrazit hodnotu</ShowValue>
     <ShowXAxis>Zobrazovat osu X</ShowXAxis>
-    <ShowYAxis>Zobrazit Y-ovou souřadnici</ShowYAxis>
+    <ShowYAxis>Zobrazovat osu Y</ShowYAxis>
     <ShowZeros>Zobrazuj nuly</ShowZeros>
-    <ShrinkFontToFit>Přizpůsobbit font</ShrinkFontToFit>
+    <ShrinkFontToFit>Přizpůsobit font</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Přizpůsobit font minimální velikosti</ShrinkFontToFitMinimumSize>
     <Side>Strana</Side>
     <Sides>Strany</Sides>
@@ -2992,9 +3004,9 @@
     <Wrap>Zalomit</Wrap>
     <WrapGap>Mezera zalomení</WrapGap>
     <XAxis>Osa X</XAxis>
-    <XTopAxis>Horní osa X</XTopAxis>
-    <YAxis>Osa Ys</YAxis>
-    <YRightAxis>Pravá osa Y</YRightAxis>
+    <XTopAxis>Osa X Horní</XTopAxis>
+    <YAxis>Osa Y</YAxis>
+    <YRightAxis>Osa Y Pravá</YRightAxis>
     <Zoom>Lupa</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -3086,7 +3098,7 @@
     <SelectAllFromRight>Vybrat vše z prava</SelectAllFromRight>
     <SwitchToDerivedTable>Přepnout na odvozenou tabulku</SwitchToDerivedTable>
     <Tables>Tabulky</Tables>
-    <UnexpectedTokenAt>Neočekávaný příznak \"{0}\" v řádku {1}, pozice {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Neočekávaný příznak "{0}" v řádku {1}, pozice {2}!</UnexpectedTokenAt>
     <Unions>Sjednocení</Unions>
     <UnionSubMenu>Sjednocení</UnionSubMenu>
     <ViewQuery>Zobrazit dotaz</ViewQuery>
@@ -3127,7 +3139,7 @@
     <CreatingReport>Vytváření sestavy</CreatingReport>
     <CrossBands>Křížové pruhy</CrossBands>
     <Dialogs>Ovládací prvky sestavy</Dialogs>
-    <EditStyles>[Upravit styly]</EditStyles>
+    <EditStyles>Upravit styly</EditStyles>
     <Errors>Chyby</Errors>
     <EventsTab>Záložka událostí</EventsTab>
     <ExpandAll>Rozbalit vše</ExpandAll>
@@ -3179,7 +3191,7 @@
     <PropertiesTab>Záložka vlastností</PropertiesTab>
     <RangeAll>Vše</RangeAll>
     <RangeCurrentPage>Aktuální stránka</RangeCurrentPage>
-    <RangeInfo>Zadejete číslo stránky a rozsah oddělený čárkami. Např.: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Zadejete číslo stránky a/nebo rozsah oddělený čárkami. Např.: 1, 3, 5-12</RangeInfo>
     <RangePage>Rozsah stránek</RangePage>
     <RangePages>Stránky</RangePages>
     <ReportChecker>Kontrolor reportu</ReportChecker>

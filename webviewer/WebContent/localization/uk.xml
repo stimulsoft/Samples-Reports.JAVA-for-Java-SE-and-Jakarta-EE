@@ -43,7 +43,7 @@
     <PreviousPage>Попередня сторінка</PreviousPage>
     <PrintContinue>Натисніть кнопку Друк для продовження</PrintContinue>
     <PrintReport>Друкувати</PrintReport>
-    <PrintToPdf>Друкувати в PDF</PrintToPdf>
+    <PrintToPdf>PDF</PrintToPdf>
     <PrintToXps>Друк в XPS</PrintToXps>
     <PrintWithoutPreview>Друкувати без попереднього перегляду</PrintWithoutPreview>
     <PrintWithPreview>Друкувати з попереднім переглядом</PrintWithPreview>
@@ -56,7 +56,7 @@
     <AdapterBusinessObjects>Дані з Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Дані з {0}</AdapterConnection>
     <AdapterCrossTabDataSource>Дані на основі Крос-Таблиці</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Дані з Csv файлів</AdapterCsvFiles>
+    <AdapterCsvFiles>Дані з CSV файлів</AdapterCsvFiles>
     <AdapterDataTables>Дані з DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>Дані з DataViews</AdapterDataViews>
     <AdapterDB2Connection>Дані з IBM DB2 з'єднання</AdapterDB2Connection>
@@ -64,13 +64,13 @@
     <AdapterFirebirdConnection>Дані з Firebird з'єднання</AdapterFirebirdConnection>
     <AdapterInformixConnection>Дані з Informix з'єднання</AdapterInformixConnection>
     <AdapterMySQLConnection>Дані з  MySQL з'єднання</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Дані з Odbc з'єднання</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Дані з OleDb з'єднання</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Дані з ODBC з'єднання</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Дані з OLE DB з'єднання</AdapterOleDbConnection>
     <AdapterOracleConnection>Дані з Oracle з'єднання</AdapterOracleConnection>
     <AdapterOracleODPConnection>Дані з Oracle ODP.NET з'єднання</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Дані з PostgreSQL з'єднання</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Дані з SqlCe з'єднання</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Дані з Sql з'єднання</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Дані з SQLCe з'єднання</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Дані з SQL з'єднання</AdapterSqlConnection>
     <AdapterSQLiteConnection>Дані з SQLite з'єднання</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Дані з Teradata з'єднання</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Дані з Однонаправленого з'єднання</AdapterUniDirectConnection>
@@ -392,18 +392,18 @@
     <DatabaseFirebird>Firebird з'єднання</DatabaseFirebird>
     <DatabaseInformix>Informix з'єднання</DatabaseInformix>
     <DatabaseMySQL>MySQL з'єднання</DatabaseMySQL>
-    <DatabaseOdbc>Odbc з'єднання</DatabaseOdbc>
-    <DatabaseOleDb>OleDB з'єднання</DatabaseOleDb>
+    <DatabaseOdbc>ODBC з'єднання</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB з'єднання</DatabaseOleDb>
     <DatabaseOracle>Oracle з'єднання</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET з'єднання</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL з'єднання</DatabasePostgreSQL>
-    <DatabaseSql>Sql з'єднання</DatabaseSql>
+    <DatabaseSql>SQL з'єднання</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE з'єднання</DatabaseSqlCe>
     <DatabaseSQLite>SQLite з'єднання</DatabaseSQLite>
     <DatabaseTeradata>Teradata з'єднання</DatabaseTeradata>
     <DatabaseUniDirect>Однонаправлене з'єднання</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB з'єднання</DatabaseVistaDB>
-    <DatabaseXml>Xml дані</DatabaseXml>
+    <DatabaseXml>XML дані</DatabaseXml>
   </Database>
   <DesignerFx>
     <AlreadyExists>'{0}' вже існує.</AlreadyExists>
@@ -505,7 +505,7 @@
     <FileNotFound>Файл '{0}' не знайдений</FileNotFound>
     <IdentifierIsNotValid>Неприпустимий ідентифікатор '{0}'.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Не можу знайти для компонента джерело даних</ImpossibleFindDataSource>
-    <NameExists>Повторюване ім'я компонента '{0}'.  Імена компонентів повинні бути унікальними й незалежними від регістра.</NameExists>
+    <NameExists>Повторюване ім'я компонента '{0}'.  Імена компонентів повинні бути унікальними.</NameExists>
     <NoServices>Сервіси не знайдені в '{0}'</NoServices>
     <NotAssign>Джерело даних не вказано.</NotAssign>
     <NotCorrectFormat>Вхідний рядок у невірному форматі.</NotCorrectFormat>
@@ -629,7 +629,8 @@
     <Zoom>Масштаб:</Zoom>
   </Export>
   <FileFilters>
-    <AllImageFiles>Всі Файли зображень</AllImageFiles>
+    <AllFiles>Всі файли</AllFiles>
+    <AllImageFiles>Всі файли зображень</AllImageFiles>
     <BitmapFiles>Bitmap файли</BitmapFiles>
     <BmpFiles>BMP зображення (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calc файли (*.ods)|*.ods</CalcFiles>
@@ -651,7 +652,7 @@
     <GifFiles>GIF зображення (*.gif)|*.gif</GifFiles>
     <HtmlFiles>HTML файли (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} файли для унаслідуваних звітів (*.{1})|*.{2}</InheritedLanguageFiles>
-    <JpegFiles>JPEG зображення (*.jpeg)|*.jpeg</JpegFiles>
+    <JpegFiles>JPEG зображення (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <LanguageFiles>{0} файли (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} файли для Silverlight звітів (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta Файли</MetaFiles>
@@ -672,11 +673,11 @@
     <SylkFiles>SYLK файли (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TІFF зображення (*.tіff)|*.tіff</TiffFiles>
     <TxtFiles>Звичайний текст (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Файли Microsoft Word 2007/2013 (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Файли Microsoft Word 2007-2016 (*.docx)|*.docx</Word2007Files>
     <WriterFiles>OpenDocument Writer файли (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML файли (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS файли (*.xps)|*.xps</XpsFiles>
-    <ZipArchives>Zip архіви (*.zip)|*.zip</ZipArchives>
+    <ZipArchives>ZIP архіви (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -709,6 +710,16 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>dd/MM/yyyy</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
     <time01>t</time01>
     <time02>T</time02>
     <time03>HH:mm</time03>
@@ -775,10 +786,10 @@
     <MySQLEdit>Редагування MySQL з'єднання</MySQLEdit>
     <MySQLNew>Нове MySQL з'єднання</MySQLNew>
     <NewConnection>Нове {0} з'єднання</NewConnection>
-    <OdbcEdit>Редагування Odbc з'єднання</OdbcEdit>
-    <OdbcNew>Нове Odbc з'єднання</OdbcNew>
-    <OleDbEdit>Редагування OleDb з'єднання</OleDbEdit>
-    <OleDbNew>Нове OleDb з'єднання</OleDbNew>
+    <OdbcEdit>Редагування ODBC з'єднання</OdbcEdit>
+    <OdbcNew>Нове ODBC з'єднання</OdbcNew>
+    <OleDbEdit>Редагування OLE DB з'єднання</OleDbEdit>
+    <OleDbNew>Нове OLE DB з'єднання</OleDbNew>
     <OracleEdit>Редагування Oracle з'єднання</OracleEdit>
     <OracleNew>Нове Oracle з'єднання</OracleNew>
     <OracleODPEdit>Редагування Oracle ODP.NET з'єднання</OracleODPEdit>
@@ -790,18 +801,18 @@
     <PromptUserNameAndPassword>Запит імені користувача та пароля</PromptUserNameAndPassword>
     <SqlCeEdit>Редагування SQLServerCE з'єднання</SqlCeEdit>
     <SqlCeNew>Нове SQLServerCE з'єднання</SqlCeNew>
-    <SqlEdit>Редагування Sql з'єднання</SqlEdit>
+    <SqlEdit>Редагування SQL з'єднання</SqlEdit>
     <SQLiteEdit>Редагування SQLite з'єднання</SQLiteEdit>
     <SQLiteNew>Створити SQLite з'эднання</SQLiteNew>
-    <SqlNew>Нове Sql з'єднання</SqlNew>
+    <SqlNew>Нове SQL з'єднання</SqlNew>
     <TeradataEdit>Редагування Teradata з'єднання</TeradataEdit>
     <TeradataNew>Нове Teradata з'єднання</TeradataNew>
     <UniDirectEdit>Редагувати Однонаправлене з'єднання</UniDirectEdit>
     <UniDirectNew>Нове Однонаправлене з'єднання</UniDirectNew>
     <VistaDBEdit>Редагування VistaDB з'єднання</VistaDBEdit>
     <VistaDBNew>Нове VistaDB з'єднання</VistaDBNew>
-    <XmlEdit>Редагування Xml даних</XmlEdit>
-    <XmlNew>Нові Xml дані</XmlNew>
+    <XmlEdit>Редагування XML даних</XmlEdit>
+    <XmlNew>Нові XML дані</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Код</Code>
@@ -818,15 +829,16 @@
     <MarginsNormal>Нормально</MarginsNormal>
     <MarginsWide>Широко</MarginsWide>
     <OrderToolbars>Упорядкувати панелі інструментів</OrderToolbars>
+    <Others>Інші</Others>
     <Pages>Сторінки</Pages>
-    <Preview>Попередній перегляд</Preview>
+    <Preview>Перегляд</Preview>
     <PropertyChange>Зміна властивості '{0}'</PropertyChange>
     <RTPreview>WinRT перегляд</RTPreview>
     <SetupToolbox>Настройка інструментарію</SetupToolbox>
     <ShowDescription>Показувати опис</ShowDescription>
     <SLPreview>Silverlight перегляд</SLPreview>
     <title>Дизайнер</title>
-    <WebPreview>Web перегляд</WebPreview>
+    <WebPreview>Flash перегляд</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Дії</Actions>
@@ -960,7 +972,7 @@
     <groupGridDrawingOptions>Параметри відображення сітки</groupGridDrawingOptions>
     <groupGridOptions>Параматри сітки</groupGridOptions>
     <groupGridSize>Розмір сітки</groupGridSize>
-    <groupMainOptions>Основні параметри дизайнера звітів</groupMainOptions>
+    <groupMainOptions>Основні параметри дизайнера</groupMainOptions>
     <groupMarkersStyle>Стиль маркерів</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Параметри швидких відомостей</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Будь ласка, виберіть тип інтерфейсу</groupPleaseSelectTypeOfGui>
@@ -3241,7 +3253,7 @@
     <SelectAllFromRight>Вибрати все справа</SelectAllFromRight>
     <SwitchToDerivedTable>Перемкнути на отриману таблицю</SwitchToDerivedTable>
     <Tables>Таблиці</Tables>
-    <UnexpectedTokenAt>Неочікуваний знак \"{0}\" у стрічці {1}, позиція {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Неочікуваний знак "{0}" у стрічці {1}, позиція {2}!</UnexpectedTokenAt>
     <Unions>Об'єднання</Unions>
     <UnionSubMenu>Об'єднання</UnionSubMenu>
     <ViewQuery>Перегляд запиту</ViewQuery>
@@ -3282,7 +3294,7 @@
     <CreatingReport>Створення Звіту</CreatingReport>
     <CrossBands>Крос</CrossBands>
     <Dialogs>Елементи керування</Dialogs>
-    <EditStyles>[Редагувати стилі]</EditStyles>
+    <EditStyles>Редагувати стилі</EditStyles>
     <Errors>Помилки</Errors>
     <EventsTab>Події</EventsTab>
     <ExpandAll>Розгорнути всі</ExpandAll>
@@ -3338,7 +3350,7 @@
     <RangePage>Сторінки:</RangePage>
     <RangePages>номери</RangePages>
     <ReportChecker>Перевірка звіту</ReportChecker>
-    <ReportRenderingMessages>Повідомлення побудови звіту</ReportRenderingMessages>
+    <ReportRenderingMessages>Повідомлення звіту</ReportRenderingMessages>
     <RestartDesigner>Вам потрібно перезапустити дизайнер звітів</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Зберегти звіт, сторінки або форми</SaveReportPagesOrFormsFromReport>
     <SavingReport>Збереження звіту</SavingReport>
