@@ -121,7 +121,12 @@ public class EventsOfTheReportRenderProcess extends JPanel {
     }
 
     private void appendText(JTextField field) {
-        textArea.append(field.getText() + "\n");
+        final String text = field.getText() + "\n";
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                textArea.append(text);
+            }
+        });
     }
 
     public static void main(final String[] args) {
@@ -129,7 +134,7 @@ public class EventsOfTheReportRenderProcess extends JPanel {
             public void run() {
                 try {
                     JFrame frame = new JFrame();
-                    frame.add(new RenderProcess(frame));
+                    frame.add(new EventsOfTheReportRenderProcess(frame));
                     frame.setSize(FRAME_SIZE);
                     frame.setLocationRelativeTo(null);
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
