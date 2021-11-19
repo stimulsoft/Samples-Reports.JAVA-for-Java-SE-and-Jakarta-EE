@@ -4,10 +4,10 @@
 
 # Overview
 This repository has some examples in different folders:
-* jsfstimulsoft
+* Running the Designer and Viewer with JavaServer Faces
+* Running the Designer
+* Running the Viewer
 * samples
-* webdesigner
-* webviewer
 
 # Running samples
 In order to start simply open the requered folder (.project file inside) with Eclipse IDE for Java Developers.
