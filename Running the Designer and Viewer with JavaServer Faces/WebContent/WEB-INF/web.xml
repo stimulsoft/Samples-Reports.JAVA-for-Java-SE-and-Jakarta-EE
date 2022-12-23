@@ -61,6 +61,10 @@
 		<param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
 		<param-value>resources.application</param-value>
 	</context-param>
+	<context-param>
+    	<param-name>javax.faces.WEBAPP_RESOURCES_DIRECTORY</param-name>
+    	<param-value>/WEB-INF/resources</param-value>
+  	</context-param>
 	<listener>
 		<listener-class>com.sun.faces.config.ConfigureListener</listener-class>
 	</listener>
