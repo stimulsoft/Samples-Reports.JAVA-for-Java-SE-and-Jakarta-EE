@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Running the Viewer</name>
+	<name>Running the Viewer Jakarta EE</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -41,7 +41,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1637317200676</id>
+			<id>0</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

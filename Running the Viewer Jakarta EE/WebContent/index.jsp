@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <%@page import="com.stimulsoft.webviewer.enums.StiWebViewerTheme"%>
 <%@page import="com.stimulsoft.webviewer.StiWebViewerOptions"%>
 <%@page import="com.stimulsoft.webviewer.StiWebViewer"%>
@@ -21,6 +21,6 @@
 	    pageContext.setAttribute("report", report);
 	    pageContext.setAttribute("options", options);
 	%>
-	<stiwebviewer:webviewer report="${report}" options="${options}" />
+	<stiwebviewer:stiwebviewer report="${report}" options="${options}" />
 </body>
 </html>
