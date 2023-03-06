@@ -15,6 +15,13 @@
 <%@page import="jakarta.servlet.http.HttpServletRequest"%>
 <%@page import="com.stimulsoft.webdesigner.StiWebDesigerHandlerJk"%>
 <%@page import="jakarta.servlet.http.HttpServletRequest"%>
+<%@page import="com.stimulsoft.report.utils.data.StiDataColumnsUtil"%>
+<%@page import="com.stimulsoft.report.dictionary.StiDataColumnsCollection"%>
+<%@page import="com.stimulsoft.report.dictionary.StiDataColumn"%>
+<%@page import="com.stimulsoft.report.utils.data.StiXmlTableFieldsRequest"%>
+<%@page import="com.stimulsoft.report.dictionary.dataSources.StiDataTableSource"%>
+<%@page import="com.stimulsoft.report.utils.data.StiXmlTable"%>
+<%@page import="com.stimulsoft.report.utils.data.StiSqlField"%>
 <%@page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="UTF-8"%>
 <%@taglib uri="http://stimulsoft.com/webdesigner"
@@ -26,6 +33,8 @@
 <body>
 	<%
 		final String reportPath = request.getSession().getServletContext().getRealPath("/reports/Master-Detail.mrt");
+        final String xmlPath = request.getSession().getServletContext().getRealPath("/data/Demo.xml");
+		final String xsdPath = request.getSession().getServletContext().getRealPath("/data/Demo.xsd");		
 	    final String savePath = request.getSession().getServletContext().getRealPath("/save/");
 	    
 	    com.stimulsoft.base.licenses.StiLicense.setKey("ff");
@@ -46,11 +55,30 @@
 	        }
 
 	        //Occurred on opening StiReport. Method intended for populate report data.
-	        public void onOpenReportTemplate(StiReport report, HttpServletRequest request) {	            
+	        public void onOpenReportTemplate(StiReport report, HttpServletRequest request) {
+	            report.getDictionary().getDatabases().add(new StiXmlDatabase("Demo", xsdPath, xmlPath));
 	        }
 
 	        //Occurred on new StiReport. Method intended for populate report data.
-	        public void onNewReportTemplate(StiReport report, HttpServletRequest request) {	            
+	        public void onNewReportTemplate(StiReport report, HttpServletRequest request) {	     
+	            report.getDictionary().getDatabases().add(new StiXmlDatabase("Demo", xsdPath, xmlPath));
+				try {
+					StiXmlTableFieldsRequest tables = StiDataColumnsUtil.parceXSDSchema(new FileInputStream(xsdPath));
+					for (StiXmlTable table : tables.getTables()) {
+						StiDataTableSource tableSource = new StiDataTableSource(
+							"Demo." + table.getName(), table.getName(), table.getName());
+						tableSource.setColumns(new StiDataColumnsCollection());
+						for (StiSqlField field : table.getColumns()) {
+							StiDataColumn column = new StiDataColumn(
+								field.getName(), field.getName(), field.getSystemType());
+							tableSource.getColumns().add(column);
+						}
+						tableSource.setDictionary(report.getDictionary());
+						report.getDictionary().getDataSources().add(tableSource);
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 	        }
 
 	        //Occurred on save StiReport. Method must implement saving StiReport

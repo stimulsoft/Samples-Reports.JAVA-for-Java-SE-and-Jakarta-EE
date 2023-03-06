@@ -14,15 +14,7 @@
 	<servlet-mapping>
 		<servlet-name>StimulsoftResource</servlet-name>
 		<url-pattern>/stimulsoft_web_resource/*</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<servlet-name>StimulsoftDesignerAction</servlet-name>
-		<servlet-class>com.stimulsoft.webdesigner.servlet.StiWebDesignerActionServletJk</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>StimulsoftDesignerAction</servlet-name>
-		<url-pattern>/stimulsoft_webdesigner_action</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping>	
 	<servlet>
 		<servlet-name>StimulsoftAction</servlet-name>
 		<servlet-class>com.stimulsoft.webviewer.servlet.StiWebViewerActionServletJk</servlet-class>
