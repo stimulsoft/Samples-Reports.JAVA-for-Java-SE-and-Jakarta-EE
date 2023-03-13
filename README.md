@@ -1,11 +1,14 @@
 # Java samples for Stimulsoft Reports.JAVA
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.JAVA reporting tool using HTML5 components.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.JAVA reporting tool using HTML5 components, supports Java™ SE 1.8 and higher.
 
 # Overview
 This repository has some examples in different folders:
+* Running the Designer Jakarta EE
+* Running the Designer and Viewer with Jakarta Faces
 * Running the Designer and Viewer with JavaServer Faces
 * Running the Designer
+* Running the Viewer Jakarta EE
 * Running the Viewer
 * samples
 
