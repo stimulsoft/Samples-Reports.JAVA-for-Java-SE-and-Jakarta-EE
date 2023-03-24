@@ -15,6 +15,7 @@
     <CategoryAlreadyExists>その名前のカテゴリは既に存在します！</CategoryAlreadyExists>
     <DayFriday>金曜日</DayFriday>
     <DayMonday>月曜日</DayMonday>
+    <Days>日</Days>
     <DaySaturday>土曜日</DaySaturday>
     <DaySunday>日曜日</DaySunday>
     <DayThursday>木曜日</DayThursday>
@@ -120,6 +121,7 @@
     <No>いいえ</No>
     <Ok>OK</Ok>
     <Open>開く</Open>
+    <OpenContainingFolder>包含するフォルダを開く</OpenContainingFolder>
     <Print>印刷</Print>
     <Publish>公開</Publish>
     <QuickPrint>クイックプリント</QuickPrint>
@@ -134,7 +136,9 @@
     <ShowLess>少なく表示</ShowLess>
     <ShowMore>もっと表示</ShowMore>
     <ShowSpecific>'{0}'の表示</ShowSpecific>
+    <Sign>サイン</Sign>
     <Submit>サブミット</Submit>
+    <SwitchTo>{0}に切り替えます</SwitchTo>
     <Test>テスト</Test>
     <Up>アップ</Up>
     <Upgrade>アップグレード</Upgrade>
@@ -206,6 +210,7 @@
     <LabelsOutside>外側</LabelsOutside>
     <LabelsOutsideBase>ベース外</LabelsOutsideBase>
     <LabelsOutsideEnd>外端</LabelsOutsideEnd>
+    <LabelsOverlay>オーバーレイ</LabelsOverlay>
     <LabelsStyleCategory>カテゴリ</LabelsStyleCategory>
     <LabelsStyleCategoryPercentOfTotal>カテゴリ - 合計の割合</LabelsStyleCategoryPercentOfTotal>
     <LabelsStyleCategoryValue>カテゴリ - 値</LabelsStyleCategoryValue>
@@ -234,6 +239,7 @@
     <NoFilters>フィルタなし</NoFilters>
     <Pareto>パレット</Pareto>
     <Pictorial>画像</Pictorial>
+    <PictorialStacked>積み上げ図</PictorialStacked>
     <Pie>パイ</Pie>
     <Radar>レーダー</Radar>
     <RadarArea>レーダーエリア</RadarArea>
@@ -247,6 +253,7 @@
     <RemoveFilter>&amp;フィルタを削除</RemoveFilter>
     <RemoveSeries>&amp;シリーズを削除</RemoveSeries>
     <RemoveStrip>ストリップを削除</RemoveStrip>
+    <Ribbon>リボン</Ribbon>
     <RunChartWizard>グラフとウィザードを実行</RunChartWizard>
     <Scatter>散布</Scatter>
     <ScatterLine>散布ライン</ScatterLine>
@@ -371,6 +378,7 @@
     <ButtonResendEmail>メールを再送</ButtonResendEmail>
     <ButtonResetPassword>パスワードを再設定</ButtonResetPassword>
     <ButtonRun>走る</ButtonRun>
+    <ButtonScheduler>スケジューラー</ButtonScheduler>
     <ButtonShare>シェア</ButtonShare>
     <ButtonSignUp>サインアップ</ButtonSignUp>
     <ButtonSignUpWith>{0}でサインアップ</ButtonSignUpWith>
@@ -499,6 +507,7 @@
     <TextItemsWorkspace>ワークスペース</TextItemsWorkspace>
     <TextLastName>苗字</TextLastName>
     <TextModify>変更</TextModify>
+    <TextNewsLetters>ニュースレター</TextNewsLetters>
     <TextNoFavoriteFiles>お気に入りのファイルはありません</TextNoFavoriteFiles>
     <TextNoFiles>ファイルがありません</TextNoFiles>
     <TextNoNotifications>通知なし</TextNoNotifications>
@@ -569,11 +578,14 @@
     <WizardPublicShareDescription>権限のないユーザーの外部アクセス。</WizardPublicShareDescription>
     <WizardRegisteredShare>認可されたアクセス</WizardRegisteredShare>
     <WizardRegisteredShareDescription>任意のワークスペースから登録されたユーザーのみの外部アクセス。</WizardRegisteredShareDescription>
+    <WizardTeamShare>チームアクセス</WizardTeamShare>
+    <WizardTeamShareDescription>1つのワークスペースのユーザーのみの外部アクセス</WizardTeamShareDescription>
     <WizardXmlDescription>XMLデータを含むレポートを作成します。</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>コード</StiBarCode>
     <StiButton>ボタン</StiButton>
+    <StiCards>カード</StiCards>
     <StiChart>グラフ</StiChart>
     <StiCheckBox>チェックボックス</StiCheckBox>
     <StiChildBand>子</StiChildBand>
@@ -600,6 +612,7 @@
     <StiDashboard>ダッシュボード</StiDashboard>
     <StiDataBand>データ</StiDataBand>
     <StiDatePicker>日付ピッカー</StiDatePicker>
+    <StiElectronicSignature>電子署名</StiElectronicSignature>
     <StiEmptyBand>空データ</StiEmptyBand>
     <StiFooterBand>フッタ</StiFooterBand>
     <StiGauge>ゲージ</StiGauge>
@@ -619,6 +632,7 @@
     <StiPageFooterBand>ページ&lt;br&gt;フッタ</StiPageFooterBand>
     <StiPageHeaderBand>ページ&lt;br&gt;ヘッダ</StiPageHeaderBand>
     <StiPanel>パネル</StiPanel>
+    <StiPdfDigitalSignature>PDF電子署名</StiPdfDigitalSignature>
     <StiPivotColumn>ピボット列</StiPivotColumn>
     <StiPivotRow>ピボットロウ</StiPivotRow>
     <StiPivotSummary>ピボットの集計</StiPivotSummary>
@@ -631,7 +645,9 @@
     <StiReportTitleBand>レポートタイトル</StiReportTitleBand>
     <StiRichText>リッチテキスト</StiRichText>
     <StiRoundedRectanglePrimitive>角丸矩形</StiRoundedRectanglePrimitive>
+    <StiScreen>画面</StiScreen>
     <StiShape>図形</StiShape>
+    <StiSignature>サイン</StiSignature>
     <StiSparkline>スパークライン</StiSparkline>
     <StiSubReport>サブレポート</StiSubReport>
     <StiSystemText>システムテキスト</StiSystemText>
@@ -645,13 +661,22 @@
     <StiWinControl>勝利のコントロール</StiWinControl>
     <StiZipCode>Zipコード</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>すべてチェック済</CheckedAll>
+    <HideText>テキストを非表示</HideText>
+    <KeysChangePosition>キー（左、上、右、下）はテキストの位置を変更</KeysChangePosition>
+    <KeysChangeSize>Shift + キー（左、上、右、下）は、テキスト領域のサイズを変更</KeysChangeSize>
+    <UncheckedAll>すべての未チェック</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>範囲を追加</AddRange>
     <AfterGroupingData>データをグループ化した後に適用</AfterGroupingData>
+    <AfterSortingData>データをグループ化して並べ替えた後に適用する</AfterSortingData>
     <AllowUserColumnSelection>ユーザー列の選択を許可する</AllowUserColumnSelection>
     <AllowUserDrillDown>ユーザードリルダウンの許可</AllowUserDrillDown>
     <AllowUserFiltering>ユーザーフィルターの許可</AllowUserFiltering>
     <AllowUserSorting>ユーザーソートの許可</AllowUserSorting>
+    <BeforeTransformation>データ変換前に適用</BeforeTransformation>
     <Blank>(ブランク)</Blank>
     <Blanks>（ブランク）</Blanks>
     <BooleanFilters>ブーリアンフィルタ</BooleanFilters>
@@ -670,6 +695,7 @@
     <DateFilters>日付フィルター</DateFilters>
     <Dimension>寸法</Dimension>
     <Dimensions>寸法</Dimensions>
+    <DragDropBlocks>パネルからブロックをドラッグアンドドロップ</DragDropBlocks>
     <DragDropData>ドラッグ＆ドロップデータ</DragDropData>
     <DragDropDataFromDictionary>辞書からデータをドラッグアンドドロップ</DragDropDataFromDictionary>
     <DrillDown>ドリルダウン</DrillDown>
@@ -703,6 +729,7 @@
     <Nulls>（Nulls）</Nulls>
     <NumberFilters>数値フィルタ</NumberFilters>
     <ParentElement>親要素</ParentElement>
+    <Priority>優先順位</Priority>
     <RangeMode>範囲指定モード</RangeMode>
     <RangeType>範囲指定タイプ</RangeType>
     <RemoveActions>アクションの削除</RemoveActions>
@@ -814,6 +841,7 @@
     <ReportSuccessfullySaved>レポートは正常に保存されました。</ReportSuccessfullySaved>
     <RetrieveError>列の取得エラー</RetrieveError>
     <RetrievingColumns>列の取得</RetrievingColumns>
+    <Saving>保存</Saving>
     <SavingConfiguration>設定の保存</SavingConfiguration>
     <SavingReport>レポートの保存</SavingReport>
     <TestConnection>テスト接続</TestConnection>
@@ -1071,7 +1099,6 @@
     <BmpFiles>BMPイメージ(*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calcファイル(*.ods)|*.ods</CalcFiles>
     <CsvFiles>CSVファイル(*.csv)|*.csv</CsvFiles>
-    <DashboardTemplates>ダッシュボードテンプレート(*.sbi)|*.sbi</DashboardTemplates>
     <DataSetXmlData>DataSet XMLデータ(*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XMLスキーマ(*.xsd)|*.xsd</DataSetXmlSchema>
     <DbfFiles>DBFファイル(*.dbf)|*.dbf</DbfFiles>
@@ -1129,18 +1156,19 @@
     <custom04>F</custom04>
     <custom05>yy/MM/dd</custom05>
     <custom06>yyyy/MM/dd</custom06>
-    <custom07>G</custom07>
-    <custom08>$0.00</custom08>
-    <custom09>$0</custom09>
-    <custom10>c</custom10>
-    <custom11>c1</custom11>
-    <custom12>c2</custom12>
-    <custom13>#.00</custom13>
-    <custom14>#.#</custom14>
-    <custom15>n</custom15>
-    <custom16>n1</custom16>
-    <custom17>n2</custom17>
-    <custom18>(###) ### - ####</custom18>
+    <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
+    <custom08>G</custom08>
+    <custom09>$0.00</custom09>
+    <custom10>$0</custom10>
+    <custom11>c</custom11>
+    <custom12>c1</custom12>
+    <custom13>c2</custom13>
+    <custom14>#.00</custom14>
+    <custom15>#.#</custom15>
+    <custom16>n</custom16>
+    <custom17>n1</custom17>
+    <custom18>n2</custom18>
+    <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
     <date03>M.dd</date03>
@@ -1202,6 +1230,7 @@
     <AssignExpression>式を代入</AssignExpression>
     <BreakIfTrue>Trueの場合はブレーク</BreakIfTrue>
     <BreakIfTrueToolTip>現在の条件が満たされている場合、条件処理を中断します。</BreakIfTrueToolTip>
+    <ChangeBorder>境界線を変更...</ChangeBorder>
     <ChangeFont>フォントを変更...</ChangeFont>
     <ComponentIsEnabled>部品は有効です</ComponentIsEnabled>
     <NoConditions>条件なし</NoConditions>
@@ -1306,6 +1335,7 @@
     <ColumnsThree>3カラム</ColumnsThree>
     <ColumnsTwo>2カラム</ColumnsTwo>
     <CompilingReport>レポートのコンパイル</CompilingReport>
+    <CopyPropertyName>コピー プロパティ名</CopyPropertyName>
     <DockingPanels>パネル</DockingPanels>
     <HtmlPreview>HTMLプレビュー</HtmlPreview>
     <JsPreview>JSプレビュー</JsPreview>
@@ -1351,6 +1381,7 @@
     <CsvSeparatorTab>タブ</CsvSeparatorTab>
     <DatabaseEdit>データベースの編集</DatabaseEdit>
     <DatabaseNew>新規データベース</DatabaseNew>
+    <DataMonitor>データモニター</DataMonitor>
     <DataParameterEdit>パラメータの編集</DataParameterEdit>
     <DataParameterNew>新規パラメータ</DataParameterNew>
     <DataSetToBusinessObjects>ビジネスオブジェクトへのデータセット</DataSetToBusinessObjects>
@@ -1368,6 +1399,7 @@
     <DragNewDataSource>データをこのパネルに直接ドラッグ</DragNewDataSource>
     <DragNewReport>レポートをこのパネルに直接ドラッグ</DragNewReport>
     <EditQuery>クエリの編集</EditQuery>
+    <EnableDataMonitor>データモニターを有効にする</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL文を正常に実行しました</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>新規式</ExpressionNew>
     <GetColumnsFromAssembly>アセンブリから列を取得</GetColumnsFromAssembly>
@@ -1467,8 +1499,11 @@
     <AutoSave>自動保存</AutoSave>
     <AutoSaveReportToReportClass>C＃またはVB.NETファイルへのレポートの自動保存</AutoSaveReportToReportClass>
     <BlankDashboard>空白ダッシュボード</BlankDashboard>
+    <BlankForm>空白のフォーム</BlankForm>
     <BlankReport>空白レポート</BlankReport>
+    <BlankScreen>空白の画面</BlankScreen>
     <Default>デフォルト</Default>
+    <DefaultScriptMode>デフォルトのスクリプトモード</DefaultScriptMode>
     <Drawing>お絵かき</Drawing>
     <DrawMarkersWhenMoving>移動時にマーカーを描く</DrawMarkersWhenMoving>
     <EditAfterInsert>挿入後に編集</EditAfterInsert>
@@ -1813,6 +1848,7 @@
     <cust_pm_stytextonly>テキストのみ（常に）</cust_pm_stytextonly>
     <cust_tab_commands>コマンド</cust_tab_commands>
     <cust_tab_options>オプション</cust_tab_options>
+    <cust_tab_toolbar_alignment>ツールバーのアライメント</cust_tab_toolbar_alignment>
     <cust_tab_toolbars>ツールバー</cust_tab_toolbars>
     <mdisysmenu_close>閉じる</mdisysmenu_close>
     <mdisysmenu_maximize>最大化する</mdisysmenu_maximize>
@@ -1836,6 +1872,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>この部品により、レポートにバーコードを表示することができます。 バーコードデータは文字列としてオブジェクトに送られます。 文字列には任意の記号を含めることができますが、選択した図表に対して許可された記号のみを表示することができます。</StiBarCode>
+    <StiButtonElement>このコンポーネントは、ユーザーとの対話時にイベントスクリプトを実行するために使用されます。</StiButtonElement>
+    <StiCardsElement>グループ化されたデータをカードとして表示するためのコンポーネントです。</StiCardsElement>
     <StiChart>この部品により、レポートにグラフを表示できます。 異なるタイプのグラフが利用可能です。 バー、ライン、パイ、ドーナツ、ライン、エリア、ガント、散布図など</StiChart>
     <StiChartElement>この部品により、ダッシュボードにグラフを表示することができます。 異なるタイプのグラフが利用可能です。</StiChartElement>
     <StiCheckBox>この部品により、レポートにチェックボックスを表示することができます。 「有効」または「無効」の2つのモードを表示できます。</StiCheckBox>
@@ -1870,6 +1908,7 @@
     <StiMap>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMap>
     <StiMapCategory>地図やデータを扱うための部品群。</StiMapCategory>
     <StiMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMapElement>
+    <StiMathFormula>このコンポーネントは、レポートに数式を表示するために使用されます。</StiMathFormula>
     <StiOnlineMapElement>この部品は、オンラインマップ上に地理的マーカーを表示するために使用されます。</StiOnlineMapElement>
     <StiOverlayBand>このバンドは、ページ上に透かしを出力するために使用されます。</StiOverlayBand>
     <StiPageFooterBand>このバンドは、ページ番号、日付、およびその他の追加情報など、各ページの下部にある情報を出力するために使用されます。</StiPageFooterBand>
@@ -1886,9 +1925,12 @@
     <StiRoundedRectanglePrimitive>この部品は、丸められた長方形を出力するために使用されます。</StiRoundedRectanglePrimitive>
     <StiShape>この部品は、丸められた長方形を出力するために使用されます。...</StiShape>
     <StiShapeElement>この部品は、矢印、斜線下、対角線上、水平線、左および右線、楕円形、四角形、四角形、上部および下部線、三角形、垂直線などの既成の図形を挿入するために使用されます。</StiShapeElement>
+    <StiSignature>このコンポーネントは、レポートに電子署名またはデジタル署名を追加するために使用されます。</StiSignature>
+    <StiSparkline>このコンポーネントは、レポートにマイクログラフィックを作成するために使用されます。 動的に変化するデータを棒、線、領域として追跡できます。</StiSparkline>
     <StiSubReport>この部品は、レポートのさまざまな場所で追加データを出力するために使用されます。</StiSubReport>
     <StiTable>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTable>
     <StiTableElement>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTableElement>
+    <StiTableOfContents>このコンポーネントは、レポートの目次を作成するために使用されます。</StiTableOfContents>
     <StiText>この部品は、データをテキストとして出力するための基本オブジェクトです。</StiText>
     <StiTextElement>この部品は、データをテキストとして出力するための基本オブジェクトです。</StiTextElement>
     <StiTextInCells>この部品は、セル内にテキストを出力するために使用されます。 フォームの作成に頻繁に使用されます。</StiTextInCells>
@@ -1956,6 +1998,7 @@
     <FontStyleBoldWatermark>透かしのテキストを太字にします。</FontStyleBoldWatermark>
     <FontStyleItalic>テキストをイタリック体にします。</FontStyleItalic>
     <FontStyleItalicWatermark>ウォーターマークのテキストをイタリック体にします。</FontStyleItalicWatermark>
+    <FontStyleStrikeout>テキストを取り消し線で囲みます。</FontStyleStrikeout>
     <FontStyleUnderline>テキストに下線を引きます。</FontStyleUnderline>
     <FontStyleUnderlineWatermark>ウォーターマークのテキストに下線を引きます。</FontStyleUnderlineWatermark>
     <FormatBoolean>この形式はブール型の値の書式設定に使用されます。</FormatBoolean>
@@ -2213,6 +2256,7 @@
     <menuFileExit>終了</menuFileExit>
     <menuFileExportXMLSchema>XMLスキーマのエクスポート...</menuFileExportXMLSchema>
     <menuFileFormNew>新規フォーム</menuFileFormNew>
+    <menuFileFormOpen>オープンフォーム</menuFileFormOpen>
     <menuFileImportXMLSchema>XMLスキーマのインポート...</menuFileImportXMLSchema>
     <menuFileMerge>マージ...</menuFileMerge>
     <menuFileMergeXMLSchema>XMLスキーマをマージ...</menuFileMergeXMLSchema>
@@ -2236,6 +2280,7 @@
     <menuFileReportWizardNew>ウィザードで新規レポート...</menuFileReportWizardNew>
     <menuFileSave>保存</menuFileSave>
     <menuFileSaveAs>名前を付けて保存...</menuFileSaveAs>
+    <menuFileScreenNew>新しい画面</menuFileScreenNew>
     <menuHelp>ヘルプ</menuHelp>
     <menuHelpAboutProgramm>本製品について</menuHelpAboutProgramm>
     <menuHelpContents>内容</menuHelpContents>
@@ -2307,6 +2352,8 @@
     <ResourceCannotBeDeleted>リソース "{0}"はレポートで使用されているため、削除できません。</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>アイテムの共有URLが更新されました！</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>レポートを共有するには、レポートをStimulsoft Cloudに保存する必要があります。</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>モードを切り替えると、変更が失われます。 続行しますか？</SwitchingBetweenModes>
+    <SwitchParametersOrientation>パラメータパネルにこのカテゴリを表示するには、「ParametersOrientation」レポートプロパティの値を「{0}」に変更してください。</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
     登録が正常に完了しました！ 
 
@@ -2513,6 +2560,7 @@
     <ItemDataSources>データソース</ItemDataSources>
     <ItemFiles>ファイル</ItemFiles>
     <ItemFolders>フォルダ</ItemFolders>
+    <ItemForms>フォーム</ItemForms>
     <ItemReportSnapshots>レポートのスナップショット</ItemReportSnapshots>
     <ItemReportTemplates>レポートテンプレート</ItemReportTemplates>
     <ItemSchedulers>スケジューラ</ItemSchedulers>
@@ -2544,6 +2592,9 @@
     <MoveLeftFreeSpace>部品を空きスペースの左側に移動し、部品の高さを空きスペースの高さまで増やします。</MoveLeftFreeSpace>
     <MoveRightFreeSpace>部品を空きスペースの右側に移動し、部品の高さを空きスペースの高さに上げます。</MoveRightFreeSpace>
   </PlacementComponent>
+  <PromptForm>
+    <CacheLoginData>現在のセッションのログインデータをキャッシュする</CacheLoginData>
+  </PromptForm>
   <PropertyCategory>
     <AppearanceCategory>外観</AppearanceCategory>
     <AreaCategory>エリア</AreaCategory>
@@ -2552,7 +2603,9 @@
     <BarCodeAdditionalCategory>バーコード追加</BarCodeAdditionalCategory>
     <BarCodeCategory>コード</BarCodeCategory>
     <BehaviorCategory>動作</BehaviorCategory>
+    <ButtonCategory>ボタン</ButtonCategory>
     <CapNeedle>キャップニードル</CapNeedle>
+    <CardsCategory>カード</CardsCategory>
     <CellCategory>細胞</CellCategory>
     <ChartAdditionalCategory>追加グラフ</ChartAdditionalCategory>
     <ChartCategory>グラフ</ChartCategory>
@@ -2587,14 +2640,18 @@
     <InterlacingCategory>インターレース</InterlacingCategory>
     <LabelsCategory>ラベル</LabelsCategory>
     <LegendCategory>凡例</LegendCategory>
+    <LinearScaleBarCategory>線形スケールバー</LinearScaleBarCategory>
+    <LinearScaleCategory>線形スケール</LinearScaleCategory>
     <ListBoxCategory>リストボックス</ListBoxCategory>
     <MainCategory>メイン</MainCategory>
     <MarkerCategory>マーカー</MarkerCategory>
+    <MathFormulaCategory>数式</MathFormulaCategory>
     <MiscCategory>その他</MiscCategory>
     <MouseEventsCategory>マウスイベント</MouseEventsCategory>
     <NavigationCategory>ナビゲーション</NavigationCategory>
     <NavigationEventsCategory>ナビゲーションイベント</NavigationEventsCategory>
     <Needle>針</Needle>
+    <NeedleCategory>ニードル</NeedleCategory>
     <OnlineMapCategory>オンラインマップ</OnlineMapCategory>
     <OptionsCategory>オプション</OptionsCategory>
     <PageAdditionalCategory>追加ページ</PageAdditionalCategory>
@@ -2606,6 +2663,7 @@
     <PrimitiveCategory>プリミティブ</PrimitiveCategory>
     <PrintEventsCategory>印刷イベント</PrintEventsCategory>
     <ProgressCategory>進捗</ProgressCategory>
+    <RadialScaleBarCategory>ラジアルスケールバー</RadialScaleBarCategory>
     <RegionMapCategory>リージョンマップ</RegionMapCategory>
     <RenderEventsCategory>レンダリングイベント</RenderEventsCategory>
     <SeriesCategory>シリーズ</SeriesCategory>
@@ -2617,6 +2675,10 @@
     <TableOfContents>目次</TableOfContents>
     <TextAdditionalCategory>追加テキスト</TextAdditionalCategory>
     <TextCategory>テキスト</TextCategory>
+    <TickLabelMajorCategory>目盛りラベルメジャー</TickLabelMajorCategory>
+    <TickLabelMinorCategory>目盛りラベルマイナー</TickLabelMinorCategory>
+    <TickMarkMajorCategory>チェックマークメジャー</TickMarkMajorCategory>
+    <TickMarkMinorCategory>チェックマークマイナー</TickMarkMinorCategory>
     <TitleCategory>タイトル</TitleCategory>
     <TreeViewBoxCategory>ツリービューボックス</TreeViewBoxCategory>
     <TreeViewCategory>ツリービュー</TreeViewCategory>
@@ -2909,6 +2971,9 @@
     <StiChartTrendLineTypeLinear>線形</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>対数</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>なし</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>チェック済み</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>不定</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>未チェック</StiCheckStateUnchecked>
     <StiCheckStyleCheck>チェック</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>チェック矩形</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>クロス</StiCheckStyleCross>
@@ -2929,6 +2994,9 @@
     <StiColorScaleTypeColor3>3色スケール</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>横から下へ</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>ダウン・アロス</StiColumnDirectionDownThenAcross>
+    <StiColumnShape3DBox>ボックス</StiColumnShape3DBox>
+    <StiColumnShape3DPartialPyramid>部分ピラミッド</StiColumnShape3DPartialPyramid>
+    <StiColumnShape3DPyramid>ピラミッド</StiColumnShape3DPyramid>
     <StiCrossHorAlignmentCenter>センター</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>左</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>なし</StiCrossHorAlignmentNone>
@@ -2950,6 +3018,10 @@
     <StiDesignerSpecificationBeginner>私はビギナーです</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>私はBIクリエーターです</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>私は開発者です</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>下から上へ</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>左から右へ</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>右から左に</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>上から下へ</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>フル</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>なし</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>ショート</StiDisplayNameTypeShort>
@@ -3072,12 +3144,16 @@
     <StiInteractionOnHoverShowToolTip>ツールチップを表示</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>現在のタブ</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>新しタブ</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>水平</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>垂直</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>マルチ</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>1</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>詳細をまとめて</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>詳細を同時に保持</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>最初の行を同時に保持</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>なし</StiKeepDetailsNone>
+    <StiLabelPlacementInside>内部</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>外部</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>自動回転</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>なし</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>1行</StiLabelsPlacementOneLine>
@@ -3121,6 +3197,7 @@
     <StiNestedFactorNormal>ノーマル</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>ダブルパス</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>シングルパス</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>範囲を追加</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>ブラックアクアホワイト</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>ブルーレッド</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>カラースペクトル</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
@@ -3152,6 +3229,9 @@
     <StiPenStyleDouble>ダブル</StiPenStyleDouble>
     <StiPenStyleNone>なし</StiPenStyleNone>
     <StiPenStyleSolid>固体</StiPenStyleSolid>
+    <StiPlacementInside>内部</StiPlacementInside>
+    <StiPlacementOutside>外部</StiPlacementOutside>
+    <StiPlacementOverlay>オーバーレイ</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>モジュロ10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>モジュロ11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>なし</StiPlesseyCheckSumNone>
@@ -3190,6 +3270,24 @@
     <StiProgressElementModeCircle>サークル</StiProgressElementModeCircle>
     <StiProgressElementModeDataBars>データバー</StiProgressElementModeDataBars>
     <StiProgressElementModePie>パイ</StiProgressElementModePie>
+    <StiQRCodeBodyShapeTypeCircle>円</StiQRCodeBodyShapeTypeCircle>
+    <StiQRCodeBodyShapeTypeCircular>円形</StiQRCodeBodyShapeTypeCircular>
+    <StiQRCodeBodyShapeTypeDiamond>ダイヤモンド</StiQRCodeBodyShapeTypeDiamond>
+    <StiQRCodeBodyShapeTypeDockedDiamonds>結合ダイヤモンド</StiQRCodeBodyShapeTypeDockedDiamonds>
+    <StiQRCodeBodyShapeTypeDot>ドット</StiQRCodeBodyShapeTypeDot>
+    <StiQRCodeBodyShapeTypeRoundedSquare>角丸正方形</StiQRCodeBodyShapeTypeRoundedSquare>
+    <StiQRCodeBodyShapeTypeSquare>四角</StiQRCodeBodyShapeTypeSquare>
+    <StiQRCodeBodyShapeTypeStar>星</StiQRCodeBodyShapeTypeStar>
+    <StiQRCodeBodyShapeTypeZebraCross>しま模様</StiQRCodeBodyShapeTypeZebraCross>
+    <StiQRCodeBodyShapeTypeZebraHorizontal>水平ゼブラ</StiQRCodeBodyShapeTypeZebraHorizontal>
+    <StiQRCodeBodyShapeTypeZebraVertical>垂直ゼブラ</StiQRCodeBodyShapeTypeZebraVertical>
+    <StiQRCodeEyeBallShapeTypeCircle>円</StiQRCodeEyeBallShapeTypeCircle>
+    <StiQRCodeEyeBallShapeTypeDots>ドット</StiQRCodeEyeBallShapeTypeDots>
+    <StiQRCodeEyeBallShapeTypeRound>丸</StiQRCodeEyeBallShapeTypeRound>
+    <StiQRCodeEyeBallShapeTypeSquare>四角</StiQRCodeEyeBallShapeTypeSquare>
+    <StiQRCodeEyeBallShapeTypeStar>星</StiQRCodeEyeBallShapeTypeStar>
+    <StiQRCodeEyeBallShapeTypeZebraHorizontal>水平ゼブラ</StiQRCodeEyeBallShapeTypeZebraHorizontal>
+    <StiQRCodeEyeBallShapeTypeZebraVertical>垂直ゼブラ</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>サークル</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>ポリゴン</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>オート</StiReportCacheModeAuto>
@@ -3245,6 +3343,10 @@
     <StiShowYAxisBoth>両方</StiShowYAxisBoth>
     <StiShowYAxisCenter>中央</StiShowYAxisCenter>
     <StiShowYAxisLeft>左</StiShowYAxisLeft>
+    <StiSignatureTypeDigitalSignature>デジタル署名</StiSignatureTypeDigitalSignature>
+    <StiSignatureTypeDraw>描画</StiSignatureTypeDraw>
+    <StiSignatureTypeSelectStyle>スタイル選択</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>タイプ</StiSignatureTypeType>
     <StiSizeModeAutoSize>自動サイズ</StiSizeModeAutoSize>
     <StiSizeModeFit>一致</StiSizeModeFit>
     <StiSortDirectionAsc>昇順</StiSortDirectionAsc>
@@ -3292,8 +3394,21 @@
     <StiTextQualityStandard>標準</StiTextQualityStandard>
     <StiTextQualityTypographic>活字</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>フィット</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>トリミング</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>ワードラップ</StiTextSizeModeWordWrap>
+    <StiTimeDateStepDay>日</StiTimeDateStepDay>
+    <StiTimeDateStepHour>時</StiTimeDateStepHour>
+    <StiTimeDateStepMinute>分</StiTimeDateStepMinute>
+    <StiTimeDateStepMonth>月</StiTimeDateStepMonth>
+    <StiTimeDateStepNone>なし</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>秒</StiTimeDateStepSecond>
+    <StiTimeDateStepYear>年</StiTimeDateStepYear>
     <StiTitlePositionInside>内部</StiTitlePositionInside>
     <StiTitlePositionOutside>外側</StiTitlePositionOutside>
+    <StiTopNModeBottom>下</StiTopNModeBottom>
+    <StiTopNModeNone>なし</StiTopNModeNone>
+    <StiTopNModeTop>上</StiTopNModeTop>
     <StiTypeModeList>リスト</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>範囲</StiTypeModeRange>
@@ -3335,8 +3450,11 @@
     <EnterEvent>入力</EnterEvent>
     <ExportedEvent>エクスポート済</ExportedEvent>
     <ExportingEvent>エクスポート中</ExportingEvent>
+    <FillParametersEvent>塗りつぶしパラメータ</FillParametersEvent>
     <GetArgumentEvent>引数取得</GetArgumentEvent>
+    <GetBarCodeEvent>バーコードを取得する</GetBarCodeEvent>
     <GetBookmarkEvent>ブックマーク取得</GetBookmarkEvent>
+    <GetCheckedEvent>チェックする</GetCheckedEvent>
     <GetCollapsedEvent>折りたたむ</GetCollapsedEvent>
     <GetCrossValueEvent>クロスバリュー取得</GetCrossValueEvent>
     <GetCutPieListEvent>カットパイリスト取得</GetCutPieListEvent>
@@ -3356,6 +3474,7 @@
     <GetListOfValuesEvent>値のリスト取得</GetListOfValuesEvent>
     <GetListOfWeights>重みのリスト取得</GetListOfWeights>
     <GetListOfWeightsEvent>重みのリスト取得</GetListOfWeightsEvent>
+    <GetPointerEvent>ポインタを取得</GetPointerEvent>
     <GetSummaryExpressionEvent>集計式取得</GetSummaryExpressionEvent>
     <GetTagEvent>タグ取得</GetTagEvent>
     <GetTitleEvent>タイトル取得</GetTitleEvent>
@@ -3521,6 +3640,9 @@
     <BarCodeType>バーコードタイプ</BarCodeType>
     <BasicStyleColor>基本スタイルカラー</BasicStyleColor>
     <Blend>ブレンド</Blend>
+    <Blocks>ブロック</Blocks>
+    <BodyBrush>ボディブラシ</BodyBrush>
+    <BodyShape>ボディシェイプ</BodyShape>
     <Bold>大胆な</Bold>
     <Bookmark>ブックマーク</Bookmark>
     <Border>境界</Border>
@@ -3530,8 +3652,11 @@
     <Borders>罫線</Borders>
     <BorderSize>ボーダーサイズ</BorderSize>
     <BorderStyle>ボーダースタイル</BorderStyle>
+    <BorderThickness>境界線幅</BorderThickness>
     <BorderWidth>ボーダー幅</BorderWidth>
     <Bottom>下</Bottom>
+    <BottomLeft>左下</BottomLeft>
+    <BottomRight>右下</BottomRight>
     <BottomSide>下部</BottomSide>
     <BreakIfLessThan>幅以下を改行</BreakIfLessThan>
     <Brush>塗りつぶし</Brush>
@@ -3564,7 +3689,10 @@
     <ChartAreaBrush>エリアブラシ</ChartAreaBrush>
     <ChartAreaShowShadow>シャドーを表示</ChartAreaShowShadow>
     <ChartType>グラフの種類</ChartType>
+    <CheckAlignment>配置チェック</CheckAlignment>
+    <CheckColor>色チェック</CheckColor>
     <Checked>チェック済み</Checked>
+    <CheckedIcon>チェック済アイコン</CheckedIcon>
     <CheckOnClick>クリックしてチェック</CheckOnClick>
     <CheckStyle>チェックスタイル</CheckStyle>
     <CheckStyleForFalse>スタイルのチェックで偽</CheckStyleForFalse>
@@ -3601,6 +3729,7 @@
     <ColumnHeaderForeColor>カラムヘッダ前景色</ColumnHeaderForeColor>
     <ColumnHeadersVisible>列見出しが表示される</ColumnHeadersVisible>
     <Columns>カラム</Columns>
+    <ColumnShape>コラムの形状</ColumnShape>
     <ColumnWidth>列幅</ColumnWidth>
     <CommandTimeout>コマンドタイムアウト</CommandTimeout>
     <CompanyPrefix>会社プレフィックス</CompanyPrefix>
@@ -3634,6 +3763,7 @@
     <DataAdapters>データアダプタ</DataAdapters>
     <DataBarCondition>データバーの状態</DataBarCondition>
     <DataBindings>データバインディング</DataBindings>
+    <DataCells>データセル</DataCells>
     <DataColor>データ色</DataColor>
     <DataColumn>データ列</DataColumn>
     <DataColumns>データ列</DataColumns>
@@ -3648,6 +3778,7 @@
     <DataType>データ・タイプ</DataType>
     <DataUrl>データURL</DataUrl>
     <DateInfo>日付情報</DateInfo>
+    <DateTimeMode>DateTimeモード</DateTimeMode>
     <DateTimeStep>日時ステップ</DateTimeStep>
     <Default>デフォルト</Default>
     <DefaultColor>デフォルトの色</DefaultColor>
@@ -3710,12 +3841,18 @@
     <ErrorCorrectionLevel>誤り訂正レベル</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>エラー訂正レベル</ErrorsCorrectionLevel>
     <EvenStyle>偶数スタイル</EvenStyle>
+    <ExceedMargins>マージン超え</ExceedMargins>
     <ExcelSheet>Excelシート</ExcelSheet>
     <ExcelValue>Excelの値</ExcelValue>
+    <Expand>拡大</Expand>
     <Exponential>指数関数的</Exponential>
     <ExportAsImage>イメージとしてエクスポート</ExportAsImage>
     <Expression>式</Expression>
     <ExtensionDigit>内線番号</ExtensionDigit>
+    <EyeBallBrush>アイボールブラシ</EyeBallBrush>
+    <EyeBallShape>アイボールシェイプ</EyeBallShape>
+    <EyeFrameBrush>アイフレームブラシ</EyeFrameBrush>
+    <EyeFrameShape>アイフレームシェイプ</EyeFrameShape>
     <FaqPage>FAQページ</FaqPage>
     <Field>フィールド</Field>
     <FieldIs>フィールドIs</FieldIs>
@@ -3763,8 +3900,10 @@
     <From>から</From>
     <FrozenColumns>カラム固定</FrozenColumns>
     <FullConvertExpression>フルコンバート式</FullConvertExpression>
+    <FullName>氏名</FullName>
     <Function>関数</Function>
     <Functions>関数</Functions>
+    <GisSettings>GIS設定</GisSettings>
     <GlobalizationStrings>グローバル対応文字列</GlobalizationStrings>
     <GlobalizedName>グローバル対応名</GlobalizedName>
     <GlyphColor>グリフ色</GlyphColor>
@@ -3781,6 +3920,8 @@
     <GroupDataColumn>グループデータ列</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>高さ拡張</GrowToHeight>
+    <Header>ヘッダ</Header>
+    <HeaderAlignment>ヘッダーアライメント</HeaderAlignment>
     <HeaderBackColor>ヘッダのバックカラー</HeaderBackColor>
     <HeaderCanBreak>ヘッダ改行可能</HeaderCanBreak>
     <HeaderCanGrow>ヘッダ拡張可能</HeaderCanGrow>
@@ -3819,12 +3960,14 @@
     <HotSelectedBackColor>ホット選択背景色</HotSelectedBackColor>
     <HotSelectedForeColor>ホット選択前景色</HotSelectedForeColor>
     <HotSelectedGlyphColor>ホット選択グリフ色</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTMLプレビューモード</HtmlPreviewMode>
     <HtmlTags>HTMLタグ</HtmlTags>
     <Hyperlink>ハイパーリンク</Hyperlink>
     <HyperlinkDataColumn>ハイパーリンクデータ列</HyperlinkDataColumn>
     <HyperlinkPattern>ハイパーリンクパターン</HyperlinkPattern>
     <Icon>アイコン</Icon>
     <IconAlignment>アイコンの配置</IconAlignment>
+    <IconBrush>アイコンブラシ</IconBrush>
     <IconColor>アイコン Color</IconColor>
     <IconSet>アイコンセット</IconSet>
     <IconSetCondition>アイコンセット条件</IconSetCondition>
@@ -3846,6 +3989,7 @@
     <Indent>インデント</Indent>
     <IndividualColor>単一色</IndividualColor>
     <InitBy>イニシエータ</InitBy>
+    <Initials>イニシャル</Initials>
     <InitialSelection>初期選択</InitialSelection>
     <InitialSelectionSource>最初の選択ソース</InitialSelectionSource>
     <Insert>挿入</Insert>
@@ -3909,8 +4053,10 @@
     <LinearBarBrush>リニアバーブラシ</LinearBarBrush>
     <LinearBarEmptyBorderBrush>リニアバー空境界ブラシ</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>リニアバー空ブラシ</LinearBarEmptyBrush>
+    <LinearScaleBrush>線形スケールブラシ</LinearScaleBrush>
     <LineColor>線の色</LineColor>
     <LineColorNegative>ラインカラーネガティブ</LineColorNegative>
+    <LineLength>線の長さ</LineLength>
     <LineLimit>行制限</LineLimit>
     <LineMarker>ラインマーカー</LineMarker>
     <LinesOfUnderline>アンダーラインの線</LinesOfUnderline>
@@ -3990,6 +4136,7 @@
     <Move>移動</Move>
     <Multiline>複数行</Multiline>
     <MultipleFactor>多因子</MultipleFactor>
+    <MultipleInitialization>複数回の初期化</MultipleInitialization>
     <Name>名称</Name>
     <NameDataColumn>名前データ列</NameDataColumn>
     <NameInSource>ソース内の名前</NameInSource>
@@ -4025,9 +4172,11 @@
     <OnDataManipulation>データ操作</OnDataManipulation>
     <OnHover>ホバー時</OnHover>
     <OnlyText>テキストのみ</OnlyText>
+    <Opacity>不透明度</Opacity>
     <OpenValues>オープンな価値</OpenValues>
     <Operation>操作</Operation>
     <Options>オプション</Options>
+    <Options3D>オプション3D</Options3D>
     <Orientation>回転</Orientation>
     <OthersText>その他のテキスト</OthersText>
     <Padding>パディング</Padding>
@@ -4042,6 +4191,7 @@
     <Parameters>パラメーター</Parameters>
     <ParametersDateFormat>パラメータ日付形式</ParametersDateFormat>
     <ParametersOrientation>パラメータの方向</ParametersOrientation>
+    <ParameterWidth>パラメータ幅</ParameterWidth>
     <ParentColumns>親カラム</ParentColumns>
     <ParentSource>親データソース</ParentSource>
     <ParentValue>親値</ParentValue>
@@ -4051,6 +4201,7 @@
     <PathData>パスデータ</PathData>
     <PathSchema>パススキーマ</PathSchema>
     <Pattern>パターン</Pattern>
+    <Placeholder>プレースホルダー</Placeholder>
     <Placement>配置</Placement>
     <PlaceOnToolbox>ツールボックス上の場所</PlaceOnToolbox>
     <PointAtCenter>センターを指す</PointAtCenter>
@@ -4123,6 +4274,7 @@
     <ReportUnit>単位系</ReportUnit>
     <RequestFromUser>ユーザーからのリクエスト</RequestFromUser>
     <RequestParameters>リクエストパラメータ</RequestParameters>
+    <ResetAllFilters>すべてのフィルタをリセットする</ResetAllFilters>
     <ResetDataSource>データソースをリセット</ResetDataSource>
     <ResetPageNumber>リセットページ番号</ResetPageNumber>
     <Resize>サイズを変更</Resize>
@@ -4168,10 +4320,13 @@
     <SelectionEnabled>選択有効</SelectionEnabled>
     <SelectionForeColor>選択色</SelectionForeColor>
     <SelectionMode>選択モード</SelectionMode>
+    <SelectStyle>セレクトスタイル</SelectStyle>
     <SeparatorColor>分離色</SeparatorColor>
     <SerialNumber>シリアルナンバー</SerialNumber>
     <Series>シリーズ</Series>
+    <SeriesBorderThickness>シリーズボーダー幅</SeriesBorderThickness>
     <SeriesColors>シリーズ色</SeriesColors>
+    <SeriesCornerRadius>シリーズコーナー半径</SeriesCornerRadius>
     <SeriesLabels>シリーズラベル</SeriesLabels>
     <SeriesLabelsBorderColor>ボーダの色</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>ラベルブラシ</SeriesLabelsBrush>
@@ -4200,6 +4355,7 @@
     <ShowInLegend>凡例内表示</ShowInLegend>
     <ShowInnerPoints>インナーポイントを表示</ShowInnerPoints>
     <ShowInPercent>％で表示</ShowInPercent>
+    <ShowLabel>ラベルを表示</ShowLabel>
     <ShowLabels>ラベル表示</ShowLabels>
     <ShowLabelText>ラベルテキスト表示</ShowLabelText>
     <ShowLegend>凡例表示</ShowLegend>
@@ -4208,6 +4364,7 @@
     <ShowNulls>NULL表示</ShowNulls>
     <ShowOthers>その他表示</ShowOthers>
     <ShowPercents>パーセンテージ表示</ShowPercents>
+    <ShowPlacemark>目印を表示</ShowPlacemark>
     <ShowQuietZoneIndicator>クワイエットゾーンインジケータ表示</ShowQuietZoneIndicator>
     <ShowQuietZones>クワイエットゾーン表示</ShowQuietZones>
     <ShowScrollBar>スクロールバー表示</ShowScrollBar>
@@ -4215,6 +4372,7 @@
     <ShowSeriesLabels>シリーズラベル表示</ShowSeriesLabels>
     <ShowShadow>シャドー表示</ShowShadow>
     <ShowTotal>合計表示</ShowTotal>
+    <ShowTotalSummary>合計の概要を表示</ShowTotalSummary>
     <ShowUpDown>表示</ShowUpDown>
     <ShowValue>値表示</ShowValue>
     <ShowXAxis>X軸表示</ShowXAxis>
@@ -4223,7 +4381,9 @@
     <ShrinkFontToFit>フォント縮小</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>フォントを縮小して最小サイズに適合</ShrinkFontToFitMinimumSize>
     <Side>側</Side>
+    <SideBySide>サイド・バイ・サイド</SideBySide>
     <Sides>サイド</Sides>
+    <SignatureType>タイプ</SignatureType>
     <Simple>シンプル</Simple>
     <Size>サイズ</Size>
     <SizeMode>サイズモード</SizeMode>
@@ -4291,8 +4451,10 @@
     <TagDataColumn>タグデータ列</TagDataColumn>
     <TagValue>タグ値</TagValue>
     <Target>ターゲット</Target>
+    <TargetColor>ターゲットカラー</TargetColor>
     <TargetIcon>ターゲットアイコン</TargetIcon>
     <TargetMode>ターゲットモード</TargetMode>
+    <TargetSettings>目標</TargetSettings>
     <Tension>テンション</Tension>
     <Text>テキスト</Text>
     <TextAfter>テキスト後</TextAfter>
@@ -4325,13 +4487,23 @@
     <To>に</To>
     <Today>今日</Today>
     <ToolTip>ツールチップ</ToolTip>
+    <ToolTipBorder>ツールチップボーダー</ToolTipBorder>
+    <ToolTipBrush>ツールチップブラシ</ToolTipBrush>
+    <ToolTipCornerRadius>ツールチップコーナー半径</ToolTipCornerRadius>
     <ToolTipDataColumn>ツールチップデータ列</ToolTipDataColumn>
+    <ToolTipTextBrush>ツールチップテキストブラシ</ToolTipTextBrush>
     <Top>上</Top>
+    <TopLeft>左上</TopLeft>
     <Topmost>一番上</Topmost>
     <TopmostLine>トップライン</TopmostLine>
     <TopN>トップN</TopN>
+    <TopRight>右上</TopRight>
     <TopSide>トップサイド</TopSide>
     <Total>合計</Total>
+    <TotalCellColumnBackColor>総セルカラム背景色</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>総セルカラム前景色</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>総セル行背景色</TotalCellRowBackColor>
+    <TotalCellRowForeColor>総セル前景色</TotalCellRowForeColor>
     <TotalLabel>トータルラベル</TotalLabel>
     <Totals>合計</Totals>
     <TrackColor>トラック色</TrackColor>
@@ -4345,6 +4517,7 @@
     <Type>タイプ</Type>
     <TypeName>タイプ名</TypeName>
     <Types>タイプ</Types>
+    <UncheckedIcon>未チェックアイコン</UncheckedIcon>
     <Underline>アンダーライン</Underline>
     <UndoLimit>元に戻す制限</UndoLimit>
     <Unit>単位</Unit>
@@ -4396,6 +4569,7 @@
     <WordWrap>単語単位の改行</WordWrap>
     <Wrap>ラップ</Wrap>
     <WrapGap>ラップギャップ</WrapGap>
+    <WrapLine>ラップライン</WrapLine>
     <XAxis>X軸</XAxis>
     <XTopAxis>Xトップ軸</XTopAxis>
     <YAxis>Y軸</YAxis>
@@ -4501,6 +4675,7 @@
   </QueryBuilder>
   <Questions>
     <qnConfiguration>プロパティパネルの設定の種類を選択してください。 選択した構成のタイプは、表示されるプロパティの数とレポートの開発者にとっての複雑さによって異なります。 プロパティパネルのコンテキストメニューからいつでも設定タイプを変更できます。</qnConfiguration>
+    <qnCopyCategory>このカテゴリのすべての変数をコピーしますか？</qnCopyCategory>
     <qnDictionaryNew>新規辞書を作成しますか？</qnDictionaryNew>
     <qnLanguageNew>レポートの言語を変更しました。 これにより、新規レポートコードが生成されます。 あなたは新規言語を保存したいと思いますか？</qnLanguageNew>
     <qnPageDelete>ページを削除しますか？</qnPageDelete>
@@ -4515,6 +4690,36 @@
     <qnSynchronize>データストアの内容と辞書の内容が同期されていますか？</qnSynchronize>
     <qnSynchronizeServices>同期サービス？</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>場所を追加</AddAPlace>
+    <AddAPlaceDesc>場所を追加することで、Reportを簡単にクラウドに保存することができます。</AddAPlaceDesc>
+    <ChangeFileType>ファイルの種類を変更する</ChangeFileType>
+    <ChooseALocation>場所を選ぶ</ChooseALocation>
+    <ClearUnpinnedItems>ピン留めされていない項目をクリアする</ClearUnpinnedItems>
+    <CopyPathToClipboard>パスをクリップボードにコピーする</CopyPathToClipboard>
+    <DateModified>修正日</DateModified>
+    <Documents>ドキュメント</Documents>
+    <DoYouWantTo>する事：</DoYouWantTo>
+    <LastWeek>先週</LastWeek>
+    <LocalDisk>ローカルディスク ({0})</LocalDisk>
+    <MessageInvalidFolderName>フォルダ名が無効です。</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>その名前はすでに存在しています。別の名前を使用してください。</MessageThatNameAlreadyExists>
+    <MoreLocations>その他の拠点 →</MoreLocations>
+    <Older>古い</Older>
+    <OtherLocations>その他の場所</OtherLocations>
+    <Personal>個人</Personal>
+    <Pinned>ピン留め</Pinned>
+    <PinToList>リストにピン留めする</PinToList>
+    <PinToRecentList>最近のリストにピン留めする</PinToRecentList>
+    <RemoveFromList>一覧から削除する</RemoveFromList>
+    <ReplaceExistingFile>既存のファイルを置き換える</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>別の名前で変更を保存</SaveChangesWithADifferentName>
+    <SaveThisFile>このファイルを保存する</SaveThisFile>
+    <SelectToNavigateUpOneLevel>1つ上の階層に移動する場合は選択</SelectToNavigateUpOneLevel>
+    <SetAsDefaultLocation>デフォルトの場所に設定</SetAsDefaultLocation>
+    <ThisPC>このPC</ThisPC>
+    <UnpinFromList>リストからピンを外す</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>アクティブなリレーション</ActiveRelation>
     <Address>住所</Address>
@@ -4540,6 +4745,7 @@
     <Dialogs>ダイアログ</Dialogs>
     <EditStyles>スタイルの編集</EditStyles>
     <Enhancements>強化</Enhancements>
+    <EnterDataManually>手動でデータを入力する</EnterDataManually>
     <Errors>エラー</Errors>
     <EventsTab>[イベント]タブ</EventsTab>
     <ExpandAll>すべて展開</ExpandAll>
@@ -4548,6 +4754,8 @@
     <FinishingReport>仕上げレポート</FinishingReport>
     <FirstPass>ファーストパス</FirstPass>
     <FixedBugs>固定バグ</FixedBugs>
+    <FromCurrentState>現在の状態から</FromCurrentState>
+    <FromDefaultState>デフォルト状態から</FromDefaultState>
     <Gallery>ギャラリー</Gallery>
     <GenerateNewCode>新規コードを生成</GenerateNewCode>
     <History>履歴</History>
@@ -4593,6 +4801,7 @@
     <NoNewVersions>新規バージョンはありません！</NoNewVersions>
     <NotAssigned>割り当てなし</NotAssigned>
     <Null>空白</Null>
+    <Obsoleted>廃止</Obsoleted>
     <Office2010Back>バック</Office2010Back>
     <PageNofM>{1}のページ{0}</PageNofM>
     <PreparingReport>レポートの準備</PreparingReport>
@@ -4611,6 +4820,7 @@
     <SavingReport>レポートの保存</SavingReport>
     <SecondPass>セカンドパス</SecondPass>
     <Shapes>図形</Shapes>
+    <ShowOnParametersPanel>パラメータパネルに表示する</ShowOnParametersPanel>
     <Standard>標準</Standard>
     <StandardConfiguration>ほとんど使用されないものを除き、主なオブジェクトのプロパティ。</StandardConfiguration>
     <StiEmptyBrush>空の</StiEmptyBrush>
@@ -4625,9 +4835,11 @@
     <StyleNormal>ノーマル</StyleNormal>
     <StyleNote>注意</StyleNote>
     <StyleWarning>警告</StyleWarning>
+    <UseDataFields>データフィールドを使用する</UseDataFields>
     <VisualChecked>チェック済み</VisualChecked>
     <VisualDefault>デフォルト</VisualDefault>
     <VisualDisabled>無効</VisualDisabled>
+    <VisualHover>ホバー</VisualHover>
     <VisualHovered>ホバーされた</VisualHovered>
     <VisualPressed>押された</VisualPressed>
     <Warnings>警告</Warnings>
@@ -4649,6 +4861,79 @@
     <Browse>ブラウズ</Browse>
     <Import>インポート</Import>
   </ReportOpen>
+  <Scheduler>
+    <ActionRunReport>レポートの実行</ActionRunReport>
+    <AdvancedSettings>高度な設定</AdvancedSettings>
+    <CheckBoxOverwriteIfExists>存在する場合は上書き</CheckBoxOverwriteIfExists>
+    <DayAll>全て</DayAll>
+    <DayDayX>{0}日</DayDayX>
+    <DayLast>最後</DayLast>
+    <DayNone>なし</DayNone>
+    <DaysOfWeekAll>全て</DaysOfWeekAll>
+    <DaysOfWeekNone>なし</DaysOfWeekNone>
+    <DelayTaskForUpToRandomDelay>最大遅延タスク（ランダム）</DelayTaskForUpToRandomDelay>
+    <EditScheduler>スケジューラーの編集</EditScheduler>
+    <EnableSSL>SSLを有効にする</EnableSSL>
+    <Expire>期限切れ</Expire>
+    <ForADurationOf>期間</ForADurationOf>
+    <GetFolder>フォルダを取得</GetFolder>
+    <GroupBoxFiles>ファイル</GroupBoxFiles>
+    <Host>ホスト</Host>
+    <Info>Windowsタスクスケジューラは、スケジューラを実行するために使用されます。</Info>
+    <LabelDaysOfWeek>曜日</LabelDaysOfWeek>
+    <LabelMessage>メッセージ</LabelMessage>
+    <LabelResultName>結果名</LabelResultName>
+    <LabelRunAtDay>日で実行</LabelRunAtDay>
+    <LabelRunAtMonth>月で実行</LabelRunAtMonth>
+    <LabelRunAtTime>時間で実行</LabelRunAtTime>
+    <LabelRunEvery>すべて実行</LabelRunEvery>
+    <LabelSubject>サブジェクト</LabelSubject>
+    <LabelTo>へ</LabelTo>
+    <Logs>ログ</Logs>
+    <MessageInvalidName>タスク名には、ファイル名に無効な文字を含めることはできません。</MessageInvalidName>
+    <MessageInvalidTaskName>ネイティブライブラリのバグのため、ピリオドで終わり、その後に3文字以下のタスク名を取得できません。</MessageInvalidTaskName>
+    <MessagePropertyNotSet>{0} が設定されていません！</MessagePropertyNotSet>
+    <MonthAll>全て</MonthAll>
+    <MonthNone>なし</MonthNone>
+    <NewAction>新しいアクション</NewAction>
+    <NewScheduler>新しいスケジューラ</NewScheduler>
+    <NoLogs>ログなし</NoLogs>
+    <NoSchedulers>スケジューラーなし</NoSchedulers>
+    <NoShedulers>シェデュラーなし</NoShedulers>
+    <NumberOfDayAll>全て</NumberOfDayAll>
+    <NumberOfDayFirst>第1</NumberOfDayFirst>
+    <NumberOfDayFourth>第4</NumberOfDayFourth>
+    <NumberOfDayLast>最後</NumberOfDayLast>
+    <NumberOfDayNone>なし</NumberOfDayNone>
+    <NumberOfDaySecond>第2</NumberOfDaySecond>
+    <NumberOfDayThird>第3</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Windowsタスクスケジューラを開く</OpenWindowsTaskScheduler>
+    <PleaseSelectSchedulerType>スケジューラタイプを選択してください</PleaseSelectSchedulerType>
+    <RadioButtonDay>日</RadioButtonDay>
+    <RadioButtonOn>オン</RadioButtonOn>
+    <RepeatTaskEvery>毎回タスクを繰り返す</RepeatTaskEvery>
+    <Schedule>スケジュール</Schedule>
+    <Scheduler>スケジューラー</Scheduler>
+    <Schedulers>スケジューラー</Schedulers>
+    <SenderEmail>送信者の電子メール</SenderEmail>
+    <SmtpSettings>SMTP設定</SmtpSettings>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>繰り返し期間の終了時に実行中のすべてのタスクを停止します</StopAllRunningTasksAtEndOfRepetitionDuration>
+    <StopTasksIfItRunsLongerThan>実行時間が長くなる場合はタスクを停止します</StopTasksIfItRunsLongerThan>
+    <TextDragDropDestinationHere>宛先フォルダをここにドラッグアンドドロップします</TextDragDropDestinationHere>
+    <TextDragDropReportHere>ここにレポートをドラッグアンドドロップします</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>アイコンプラスをクリックして、新しいアクションを追加してください！</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>レポートパラメータの定義</ToolTipSetParameters>
+    <WizardDaily>毎日</WizardDaily>
+    <WizardDailyDescription>指定された時間に1日1回</WizardDailyDescription>
+    <WizardHourly>毎時</WizardHourly>
+    <WizardHourlyDescription>1時間に1回</WizardHourlyDescription>
+    <WizardMonthly>毎月</WizardMonthly>
+    <WizardMonthlyDescription>選択した週または月、指定した時間の毎月</WizardMonthlyDescription>
+    <WizardOnce>一度</WizardOnce>
+    <WizardOnceDescription>スケジューラーはいつでも1回実行してください。</WizardOnceDescription>
+    <WizardWeekly>毎週</WizardWeekly>
+    <WizardWeeklyDescription>選択した曜日、指定した時間</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>コンテキストツール</categoryContextTools>
     <categoryDesigner>デザイナー</categoryDesigner>
@@ -4706,6 +4991,18 @@
     <Triangle>三角形</Triangle>
     <VerticalLine>垂直線</VerticalLine>
   </Shapes>
+  <Signature>
+    <DigitalSignatureEmptyWatermark>PDFビューアにデジタル署名を配置</DigitalSignatureEmptyWatermark>
+    <FullName>フルネーム</FullName>
+    <Initials>イニシャル</Initials>
+    <InsertImage>画像を挿入</InsertImage>
+    <InsertText>テキストを挿入</InsertText>
+    <LoadSignature>署名のロード</LoadSignature>
+    <NoSavedItems>保存されたアイテムはありません</NoSavedItems>
+    <SaveSignature>署名の保存</SaveSignature>
+    <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
+    <UseBrush>ブラシを使用する</UseBrush>
+  </Signature>
   <SystemVariables>
     <Column>現在の列番号を返します（1から始まります）。</Column>
     <GroupLine>現在のグループ行番号を返します（1から始まります）。</GroupLine>
@@ -4831,7 +5128,9 @@
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>ブランクダッシュボード</BlankDashboard>
+    <BlankForm>空白のフォーム</BlankForm>
     <BlankReport>空白レポート</BlankReport>
+    <BlankScreen>空白の画面</BlankScreen>
     <ButtonBack>戻る</ButtonBack>
     <ButtonCancel>キャンセル</ButtonCancel>
     <ButtonFinish>終了</ButtonFinish>

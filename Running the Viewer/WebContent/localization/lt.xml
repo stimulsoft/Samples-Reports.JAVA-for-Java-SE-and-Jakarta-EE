@@ -111,47 +111,6 @@
     <SaveFile>Salva file</SaveFile>
     <ShowAllFiles>Mostra tutti i files</ShowAllFiles>
   </Cloud>
-  <Scheduler>
-    <ActionRunReport>Esegui Report</ActionRunReport>
-    <TextPressPlusIconAddNewAction>Clicca l'icona più per aggiungere una nuova azione!</TextPressPlusIconAddNewAction>
-    <WizardOnce>Una volta</WizardOnce>
-    <WizardOnceDescription>Esegue lo Schedulatore una volta sola a qualsiasi ora.</WizardOnceDescription>
-    <WizardHourly>Orario</WizardHourly>
-    <WizardHourlyDescription>Una volta ogni ora.</WizardHourlyDescription>
-    <WizardDaily>Giornaliero</WizardDaily>
-    <WizardDailyDescription>Una volta al giorno, all'ora indicata.</WizardDailyDescription>
-    <WizardWeekly>Settimanale</WizardWeekly>
-    <WizardWeeklyDescription>Nei giorni della settimana indicati, all'ora specificata.</WizardWeeklyDescription>
-    <WizardMonthly>Mensile</WizardMonthly>
-    <WizardMonthlyDescription>Ogni mese, nei giorni indicati della settimana o del mese, all'ora indicata.</WizardMonthlyDescription>
-    <LabelRunAtTime>Esegui all'Ora</LabelRunAtTime>
-    <LabelRunEvery>Esegui Ogni</LabelRunEvery>
-    <LabelRunAtDay>Esegui il giorno</LabelRunAtDay>
-    <RadioButtonDay>giorno</RadioButtonDay>
-    <DayDayX>Giorno {0}</DayDayX>
-    <DayLast>Ultimo</DayLast>
-    <DayAll>Tutto</DayAll>
-    <DayNone>Nessuno</DayNone>
-    <RadioButtonOn>On</RadioButtonOn>
-    <NumberOfDayFirst>Primo</NumberOfDayFirst>
-    <NumberOfDaySecond>Secondo</NumberOfDaySecond>
-    <NumberOfDayThird>Terzo</NumberOfDayThird>
-    <NumberOfDayFourth>Quarto</NumberOfDayFourth>
-    <NumberOfDayLast>Ultimo</NumberOfDayLast>
-    <NumberOfDayAll>Tutto</NumberOfDayAll>
-    <NumberOfDayNone>Nessuno</NumberOfDayNone>
-    <DaysOfWeekAll>Tutto</DaysOfWeekAll>
-    <DaysOfWeekNone>Nessuno</DaysOfWeekNone>
-    <LabelRunAtMonth>Esegui nel Mese</LabelRunAtMonth>
-    <LabelDaysOfWeek>giorni della Settimana</LabelDaysOfWeek>
-    <TextDragDropReportHere>Trascina qui il Report</TextDragDropReportHere>
-    <ToolTipSetParameters>Definizione Parametri Report</ToolTipSetParameters>
-    <TextDragDropDestinationHere>Trascina qui l'Item di Destinazione</TextDragDropDestinationHere>
-    <LabelTo>A</LabelTo>
-    <LabelSubject>Oggetto</LabelSubject>
-    <LabelMessage>Messaggio</LabelMessage>
-    <GroupBoxFiles>Files</GroupBoxFiles>
-  </Scheduler>
   <Components>
     <StiBarCode>Barkodas</StiBarCode>
     <StiChart>Grafikas</StiChart>
@@ -400,18 +359,19 @@
     <custom04>F</custom04>
     <custom05>yy/MM/dd</custom05>
     <custom06>yyyy/MM/dd</custom06>
-    <custom07>G</custom07>
-    <custom08>$0.00</custom08>
-    <custom09>$0</custom09>
-    <custom10>c</custom10>
-    <custom11>c1</custom11>
-    <custom12>c2</custom12>
-    <custom13>#.00</custom13>
-    <custom14>#,#</custom14>
-    <custom15>n</custom15>
-    <custom16>n1</custom16>
-    <custom17>n2</custom17>
-    <custom18>(###) ### - ####</custom18>
+    <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
+    <custom08>G</custom08>
+    <custom09>$0.00</custom09>
+    <custom10>$0</custom10>
+    <custom11>c</custom11>
+    <custom12>c1</custom12>
+    <custom13>c2</custom13>
+    <custom14>#.00</custom14>
+    <custom15>#,#</custom15>
+    <custom16>n</custom16>
+    <custom17>n1</custom17>
+    <custom18>n2</custom18>
+    <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
     <date03>M.dd</date03>
@@ -495,11 +455,11 @@
     <XmlNew>Naujas XML Data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
-    <Others>Kitos</Others>
     <Code>Kodas</Code>
     <CompilingReport>Ataskaitos kompiliavimas</CompilingReport>
     <LocalizePropertyGrid>Lokalizuoti savybes</LocalizePropertyGrid>
     <OrderToolbars>Surūšiuoti įrankių juostas</OrderToolbars>
+    <Others>Kitos</Others>
     <Pages>Puslapiai</Pages>
     <Preview>Peržiūra</Preview>
     <PropertyChange>Savybės '{0}' keitimas</PropertyChange>
@@ -838,10 +798,10 @@
     <menuFileReportOpenFromGoogleDocs>Apri report da Google Docs...</menuFileReportOpenFromGoogleDocs>
     <menuFileReportPreview>&amp;Peržiūra</menuFileReportPreview>
     <menuFileReportSave>&amp;Išsaugoti ataskaitą</menuFileReportSave>
-    <menuFileSave>&amp;Išsaugoti</menuFileSave>
     <menuFileReportSaveAs>Išsaugoti ataskaitą &amp;kaip...</menuFileReportSaveAs>
     <menuFileReportSaveAsToGoogleDocs>Salva report in Google Docs...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>Ataskaitos &amp;nustatymai...</menuFileReportSetup>
+    <menuFileSave>&amp;Išsaugoti</menuFileSave>
     <menuFileSaveAs>Išsaugoti kaip...</menuFileSaveAs>
     <menuHelp>&amp;Pagalba</menuHelp>
     <menuHelpAboutProgramm>&amp;Apie...</menuHelpAboutProgramm>
@@ -1935,6 +1895,47 @@
     <WhenAnd>Quando {0} {1} e</WhenAnd>
     <WhenValueIs>Quando il valore è</WhenValueIs>
   </Report>
+  <Scheduler>
+    <ActionRunReport>Esegui Report</ActionRunReport>
+    <DayAll>Tutto</DayAll>
+    <DayDayX>Giorno {0}</DayDayX>
+    <DayLast>Ultimo</DayLast>
+    <DayNone>Nessuno</DayNone>
+    <DaysOfWeekAll>Tutto</DaysOfWeekAll>
+    <DaysOfWeekNone>Nessuno</DaysOfWeekNone>
+    <GroupBoxFiles>Files</GroupBoxFiles>
+    <LabelDaysOfWeek>giorni della Settimana</LabelDaysOfWeek>
+    <LabelMessage>Messaggio</LabelMessage>
+    <LabelRunAtDay>Esegui il giorno</LabelRunAtDay>
+    <LabelRunAtMonth>Esegui nel Mese</LabelRunAtMonth>
+    <LabelRunAtTime>Esegui all'Ora</LabelRunAtTime>
+    <LabelRunEvery>Esegui Ogni</LabelRunEvery>
+    <LabelSubject>Oggetto</LabelSubject>
+    <LabelTo>A</LabelTo>
+    <NumberOfDayAll>Tutto</NumberOfDayAll>
+    <NumberOfDayFirst>Primo</NumberOfDayFirst>
+    <NumberOfDayFourth>Quarto</NumberOfDayFourth>
+    <NumberOfDayLast>Ultimo</NumberOfDayLast>
+    <NumberOfDayNone>Nessuno</NumberOfDayNone>
+    <NumberOfDaySecond>Secondo</NumberOfDaySecond>
+    <NumberOfDayThird>Terzo</NumberOfDayThird>
+    <RadioButtonDay>giorno</RadioButtonDay>
+    <RadioButtonOn>On</RadioButtonOn>
+    <TextDragDropDestinationHere>Trascina qui l'Item di Destinazione</TextDragDropDestinationHere>
+    <TextDragDropReportHere>Trascina qui il Report</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>Clicca l'icona più per aggiungere una nuova azione!</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>Definizione Parametri Report</ToolTipSetParameters>
+    <WizardDaily>Giornaliero</WizardDaily>
+    <WizardDailyDescription>Una volta al giorno, all'ora indicata.</WizardDailyDescription>
+    <WizardHourly>Orario</WizardHourly>
+    <WizardHourlyDescription>Una volta ogni ora.</WizardHourlyDescription>
+    <WizardMonthly>Mensile</WizardMonthly>
+    <WizardMonthlyDescription>Ogni mese, nei giorni indicati della settimana o del mese, all'ora indicata.</WizardMonthlyDescription>
+    <WizardOnce>Una volta</WizardOnce>
+    <WizardOnceDescription>Esegue lo Schedulatore una volta sola a qualsiasi ora.</WizardOnceDescription>
+    <WizardWeekly>Settimanale</WizardWeekly>
+    <WizardWeeklyDescription>Nei giorni della settimana indicati, all'ora specificata.</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>Kontekstinis meniu</categoryContextTools>
     <categoryDesigner>Komponuotojas</categoryDesigner>

@@ -121,6 +121,7 @@
     <No>否</No>
     <Ok>确定(&amp;O)</Ok>
     <Open>打开</Open>
+    <OpenContainingFolder>打开父目录</OpenContainingFolder>
     <Print>打印</Print>
     <Publish>发布</Publish>
     <QuickPrint>快速打印</QuickPrint>
@@ -135,6 +136,7 @@
     <ShowLess>显示减少</ShowLess>
     <ShowMore>显示增加</ShowMore>
     <ShowSpecific>显示 '{0}'</ShowSpecific>
+    <Sign>签署</Sign>
     <Submit>提交</Submit>
     <SwitchTo>切换到{0}</SwitchTo>
     <Test>测试</Test>
@@ -209,6 +211,7 @@
     <LabelsOutside>之外</LabelsOutside>
     <LabelsOutsideBase>基点之外</LabelsOutsideBase>
     <LabelsOutsideEnd>顶点之外</LabelsOutsideEnd>
+    <LabelsOverlay>覆盖</LabelsOverlay>
     <LabelsStyleCategory>类别</LabelsStyleCategory>
     <LabelsStyleCategoryPercentOfTotal>类别 - 总额百分比</LabelsStyleCategoryPercentOfTotal>
     <LabelsStyleCategoryValue>类别 - 值</LabelsStyleCategoryValue>
@@ -237,6 +240,7 @@
     <NoFilters>无过滤</NoFilters>
     <Pareto>Pareto</Pareto>
     <Pictorial>图示</Pictorial>
+    <PictorialStacked>图形叠加</PictorialStacked>
     <Pie>饼图</Pie>
     <Radar>雷达图</Radar>
     <RadarArea>雷达面积图</RadarArea>
@@ -250,6 +254,7 @@
     <RemoveFilter>移除过滤(&amp;R)</RemoveFilter>
     <RemoveSeries>移除序列(&amp;R)</RemoveSeries>
     <RemoveStrip>移除长条</RemoveStrip>
+    <Ribbon>功能区</Ribbon>
     <RunChartWizard>运行图表 &amp;向导</RunChartWizard>
     <Scatter>矢量图</Scatter>
     <ScatterLine>矢量直线</ScatterLine>
@@ -639,7 +644,9 @@
     <StiReportTitleBand>报表标题区</StiReportTitleBand>
     <StiRichText>富文本</StiRichText>
     <StiRoundedRectanglePrimitive>圆角矩形</StiRoundedRectanglePrimitive>
+    <StiScreen>屏幕</StiScreen>
     <StiShape>形状</StiShape>
+    <StiSignature>署名</StiSignature>
     <StiSparkline> 火花谱线</StiSparkline>
     <StiSubReport>子报表</StiSubReport>
     <StiSystemText>系统文本</StiSystemText>
@@ -653,13 +660,22 @@
     <StiWinControl>Windows 控件</StiWinControl>
     <StiZipCode>邮政编码</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>全选</CheckedAll>
+    <HideText>隐藏文本</HideText>
+    <KeysChangePosition>键(左，上，右，下)改变文本的位置  </KeysChangePosition>
+    <KeysChangeSize>Shift +键(左，上，右，下)改变文本区域的大小  </KeysChangeSize>
+    <UncheckedAll>取消全选</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>添加范围</AddRange>
     <AfterGroupingData>分组数据后应用</AfterGroupingData>
+    <AfterSortingData>在分组和整理数据后应用</AfterSortingData>
     <AllowUserColumnSelection>允许用户选择列</AllowUserColumnSelection>
     <AllowUserDrillDown>允许用户下行查看</AllowUserDrillDown>
     <AllowUserFiltering>允许用户筛选</AllowUserFiltering>
     <AllowUserSorting>允许用户排序</AllowUserSorting>
+    <BeforeTransformation>在数据转换之前应用</BeforeTransformation>
     <Blank>(空白)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>布尔过滤器</BooleanFilters>
@@ -712,6 +728,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>数字过滤器</NumberFilters>
     <ParentElement>父元素</ParentElement>
+    <Priority>优先</Priority>
     <RangeMode>范围模式</RangeMode>
     <RangeType>范围类型</RangeType>
     <RemoveActions>R&amp;删除动作</RemoveActions>
@@ -1081,7 +1098,6 @@
     <BmpFiles>BMP 图片 (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>打开 Calc files (*.ods)|*.ods 文档</CalcFiles>
     <CsvFiles>CSV 文件 (*.csv)|*.csv</CsvFiles>
-    <DashboardTemplates>仪表盘模板 (*.sbi)|*.sbi</DashboardTemplates>
     <DataSetXmlData>DataSet XML data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML schema (*.xsd)|*.xsd</DataSetXmlSchema>
     <DbfFiles>DBF 文件 (*.dbf)|*.dbf</DbfFiles>
@@ -1139,18 +1155,19 @@
     <custom04>F</custom04>
     <custom05>yy/MM/dd</custom05>
     <custom06>yyyy/MM/dd</custom06>
-    <custom07>G</custom07>
-    <custom08>$0.00</custom08>
-    <custom09>$0</custom09>
-    <custom10>c</custom10>
-    <custom11>c1</custom11>
-    <custom12>c2</custom12>
-    <custom13>#.00</custom13>
-    <custom14>#.#</custom14>
-    <custom15>n</custom15>
-    <custom16>n1</custom16>
-    <custom17>n2</custom17>
-    <custom18>(###) ### - ####</custom18>
+    <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
+    <custom08>G</custom08>
+    <custom09>$0.00</custom09>
+    <custom10>$0</custom10>
+    <custom11>c</custom11>
+    <custom12>c1</custom12>
+    <custom13>c2</custom13>
+    <custom14>#.00</custom14>
+    <custom15>#.#</custom15>
+    <custom16>n</custom16>
+    <custom17>n1</custom17>
+    <custom18>n2</custom18>
+    <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
     <date03>M.dd</date03>
@@ -1212,6 +1229,7 @@
     <AssignExpression>分配表达式</AssignExpression>
     <BreakIfTrue>如果属实就中断</BreakIfTrue>
     <BreakIfTrueToolTip>如果满足当前条件，则中断条件处理</BreakIfTrueToolTip>
+    <ChangeBorder>边界变更...</ChangeBorder>
     <ChangeFont>改变字体</ChangeFont>
     <ComponentIsEnabled>组件已激活</ComponentIsEnabled>
     <NoConditions>无条件</NoConditions>
@@ -1479,6 +1497,7 @@
     <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankForm>空白格式</BlankForm>
     <BlankReport>空白报表</BlankReport>
+    <BlankScreen>黑屏</BlankScreen>
     <Default>默认</Default>
     <DefaultScriptMode>默认脚本模式</DefaultScriptMode>
     <Drawing>图纸</Drawing>
@@ -1849,6 +1868,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>该组件允许在报表中显示条形码.条形码数据以字符串的形式发送给对象.字符串可包含任意字符,但只允许被选定的图表可以显示符号.</StiBarCode>
+    <StiButtonElement>该组件用于在用户交互时执行事件脚本</StiButtonElement>
+    <StiCardsElement>此组件用于将分组数据显示为卡片</StiCardsElement>
     <StiChart>该组件允许在报表中显示图表.提供了不同类型的图表,,例如条形图, 折线图, 饼图, 圆环图, 线形表,面积图, 甘特图, 散点图等. </StiChart>
     <StiChartElement>该元素允许图表显示在仪表盘中。不同类型的图表均可使用。</StiChartElement>
     <StiCheckBox>该组件用于在报告中显示复选框.它可以显示两种模式:“启用”或“禁用”.</StiCheckBox>
@@ -1900,6 +1921,7 @@
     <StiRoundedRectanglePrimitive>该组件用于输出圆角矩形.</StiRoundedRectanglePrimitive>
     <StiShape>该组件用于插入现成的形状,如箭头,斜线,反斜线,水平线,双竖线,椭圆,矩形,圆角矩形,双横线,三角形,垂直线.</StiShape>
     <StiShapeElement>该元素用于插入现成的形状，如箭头、对角线向下、对角线向上、水平线、左右线、椭圆、矩形，圆角矩形，上下线，三角形，垂直线。</StiShapeElement>
+    <StiSignature>该组件用于向报表添加电子或数字签名。</StiSignature>
     <StiSparkline>此组件用于在报表中创建缩微图形。你可以动态跟踪变化的数据，如条，线，区域</StiSparkline>
     <StiSubReport>该组件用于在报表的不同位置输出附加数据.</StiSubReport>
     <StiTable>该组件为有组织的使用垂直列和水平行模型的数据元素的集合.</StiTable>
@@ -2253,6 +2275,7 @@
     <menuFileReportWizardNew>新建报表向导...</menuFileReportWizardNew>
     <menuFileSave>保存报表(&amp;S)...</menuFileSave>
     <menuFileSaveAs>另存为...</menuFileSaveAs>
+    <menuFileScreenNew>新屏幕</menuFileScreenNew>
     <menuHelp>帮助(&amp;H)</menuHelp>
     <menuHelpAboutProgramm>关于(&amp;A)...</menuHelpAboutProgramm>
     <menuHelpContents>内容(&amp;C)...</menuHelpContents>
@@ -2575,6 +2598,7 @@
     <BehaviorCategory>行为</BehaviorCategory>
     <ButtonCategory>按钮</ButtonCategory>
     <CapNeedle>帽针</CapNeedle>
+    <CardsCategory>卡片</CardsCategory>
     <CellCategory>单元格</CellCategory>
     <ChartAdditionalCategory>附加图表</ChartAdditionalCategory>
     <ChartCategory>图标</ChartCategory>
@@ -2614,6 +2638,7 @@
     <ListBoxCategory>列表框</ListBoxCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>标注</MarkerCategory>
+    <MathFormulaCategory>数学公式</MathFormulaCategory>
     <MiscCategory>其他</MiscCategory>
     <MouseEventsCategory>鼠标事件</MouseEventsCategory>
     <NavigationCategory>导航</NavigationCategory>
@@ -2878,8 +2903,8 @@
     <PictureBoxSizeModeCenterImage>图片中间</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>正常</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>适应图片</PictureBoxSizeModeStretchImage>
-    <RelationDirectionChildToParent>儿童与家长</RelationDirectionChildToParent>
-    <RelationDirectionParentToChild>家长与儿童</RelationDirectionParentToChild>
+    <RelationDirectionChildToParent>子父</RelationDirectionChildToParent>
+    <RelationDirectionParentToChild>父子</RelationDirectionParentToChild>
     <RightToLeftInherit>继承</RightToLeftInherit>
     <RightToLeftNo>否</RightToLeftNo>
     <RightToLeftYes>是</RightToLeftYes>
@@ -2947,6 +2972,9 @@
     <StiChartTrendLineTypeLinear>线型</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>对数</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>无</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>选中</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>模糊</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>取消</StiCheckStateUnchecked>
     <StiCheckStyleCheck>复选</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Check Rectangle</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>交叉</StiCheckStyleCross>
@@ -3114,12 +3142,16 @@
     <StiInteractionOnHoverShowToolTip>显示工具提示</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>当前标签</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>新标签</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>横向</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>纵向</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>多种</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>一种</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>明细始终一起</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>第一条明细始终一起</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>第一行始终一起</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>无</StiKeepDetailsNone>
+    <StiLabelPlacementInside>内</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>外</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>自动旋转</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>无</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>单线</StiLabelsPlacementOneLine>
@@ -3195,6 +3227,9 @@
     <StiPenStyleDouble>Double</StiPenStyleDouble>
     <StiPenStyleNone>无</StiPenStyleNone>
     <StiPenStyleSolid>实线</StiPenStyleSolid>
+    <StiPlacementInside>内</StiPlacementInside>
+    <StiPlacementOutside>外</StiPlacementOutside>
+    <StiPlacementOverlay>覆盖</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>无</StiPlesseyCheckSumNone>
@@ -3233,6 +3268,24 @@
     <StiProgressElementModeCircle>圆圈</StiProgressElementModeCircle>
     <StiProgressElementModeDataBars>数据条</StiProgressElementModeDataBars>
     <StiProgressElementModePie>饼状图</StiProgressElementModePie>
+    <StiQRCodeBodyShapeTypeCircle>圆形</StiQRCodeBodyShapeTypeCircle>
+    <StiQRCodeBodyShapeTypeCircular>圆形的</StiQRCodeBodyShapeTypeCircular>
+    <StiQRCodeBodyShapeTypeDiamond>菱形</StiQRCodeBodyShapeTypeDiamond>
+    <StiQRCodeBodyShapeTypeDockedDiamonds>停靠菱形</StiQRCodeBodyShapeTypeDockedDiamonds>
+    <StiQRCodeBodyShapeTypeDot>点</StiQRCodeBodyShapeTypeDot>
+    <StiQRCodeBodyShapeTypeRoundedSquare>圆角正方形</StiQRCodeBodyShapeTypeRoundedSquare>
+    <StiQRCodeBodyShapeTypeSquare>正方形</StiQRCodeBodyShapeTypeSquare>
+    <StiQRCodeBodyShapeTypeStar>星形</StiQRCodeBodyShapeTypeStar>
+    <StiQRCodeBodyShapeTypeZebraCross>Zebra十字形</StiQRCodeBodyShapeTypeZebraCross>
+    <StiQRCodeBodyShapeTypeZebraHorizontal>Zebra横向</StiQRCodeBodyShapeTypeZebraHorizontal>
+    <StiQRCodeBodyShapeTypeZebraVertical>Zebra纵向</StiQRCodeBodyShapeTypeZebraVertical>
+    <StiQRCodeEyeBallShapeTypeCircle>圆形</StiQRCodeEyeBallShapeTypeCircle>
+    <StiQRCodeEyeBallShapeTypeDots>点</StiQRCodeEyeBallShapeTypeDots>
+    <StiQRCodeEyeBallShapeTypeRound>球形</StiQRCodeEyeBallShapeTypeRound>
+    <StiQRCodeEyeBallShapeTypeSquare>正方形</StiQRCodeEyeBallShapeTypeSquare>
+    <StiQRCodeEyeBallShapeTypeStar>星形</StiQRCodeEyeBallShapeTypeStar>
+    <StiQRCodeEyeBallShapeTypeZebraHorizontal>Zebra横向</StiQRCodeEyeBallShapeTypeZebraHorizontal>
+    <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra纵向</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>圆</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>多边形</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>自动</StiReportCacheModeAuto>
@@ -3288,6 +3341,10 @@
     <StiShowYAxisBoth>全部</StiShowYAxisBoth>
     <StiShowYAxisCenter>中间</StiShowYAxisCenter>
     <StiShowYAxisLeft>左</StiShowYAxisLeft>
+    <StiSignatureTypeDigitalSignature>数字签名</StiSignatureTypeDigitalSignature>
+    <StiSignatureTypeDraw>手写</StiSignatureTypeDraw>
+    <StiSignatureTypeSelectStyle>选择风格</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>类型</StiSignatureTypeType>
     <StiSizeModeAutoSize>自动调整尺寸</StiSizeModeAutoSize>
     <StiSizeModeFit>适配</StiSizeModeFit>
     <StiSortDirectionAsc>升序</StiSortDirectionAsc>
@@ -3335,6 +3392,9 @@
     <StiTextQualityStandard>标准</StiTextQualityStandard>
     <StiTextQualityTypographic>印刷质量</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>所见即所得</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>适应</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>修整</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>自动换行</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>天</StiTimeDateStepDay>
     <StiTimeDateStepHour>小时</StiTimeDateStepHour>
     <StiTimeDateStepMinute>分</StiTimeDateStepMinute>
@@ -3579,6 +3639,8 @@
     <BasicStyleColor>基本类型颜色</BasicStyleColor>
     <Blend>混合</Blend>
     <Blocks>Blocks</Blocks>
+    <BodyBrush>刷子</BodyBrush>
+    <BodyShape>内部形状</BodyShape>
     <Bold>粗体</Bold>
     <Bookmark>书签</Bookmark>
     <Border>边框</Border>
@@ -3588,6 +3650,7 @@
     <Borders>边框</Borders>
     <BorderSize>边框尺寸</BorderSize>
     <BorderStyle>边框样式</BorderStyle>
+    <BorderThickness>边框粗细</BorderThickness>
     <BorderWidth>边框宽度</BorderWidth>
     <Bottom>底端</Bottom>
     <BottomLeft>左下</BottomLeft>
@@ -3624,7 +3687,10 @@
     <ChartAreaBrush>图表区刷</ChartAreaBrush>
     <ChartAreaShowShadow>图表区显示为阴影</ChartAreaShowShadow>
     <ChartType>图表类型</ChartType>
+    <CheckAlignment>对齐</CheckAlignment>
+    <CheckColor>颜色选择</CheckColor>
     <Checked>选中</Checked>
+    <CheckedIcon>检查图标</CheckedIcon>
     <CheckOnClick>点击选择</CheckOnClick>
     <CheckStyle>选择样式</CheckStyle>
     <CheckStyleForFalse>未选中样式</CheckStyleForFalse>
@@ -3774,10 +3840,15 @@
     <ExceedMargins>超出</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel值</ExcelValue>
+    <Expand>扩展</Expand>
     <Exponential>指数</Exponential>
     <ExportAsImage>导出为图像</ExportAsImage>
     <Expression>表达式</Expression>
     <ExtensionDigit>扩展数字</ExtensionDigit>
+    <EyeBallBrush>码眼刷</EyeBallBrush>
+    <EyeBallShape>码眼形状</EyeBallShape>
+    <EyeFrameBrush>码眼边框刷</EyeFrameBrush>
+    <EyeFrameShape>码眼边框形状</EyeFrameShape>
     <FaqPage>FAQ</FaqPage>
     <Field>领域</Field>
     <FieldIs>字段是</FieldIs>
@@ -3825,6 +3896,7 @@
     <From>来自</From>
     <FrozenColumns>冻结列</FrozenColumns>
     <FullConvertExpression>完整转换表达式</FullConvertExpression>
+    <FullName>全名</FullName>
     <Function>函数</Function>
     <Functions>函数</Functions>
     <GisSettings>Gis设置</GisSettings>
@@ -3845,6 +3917,7 @@
     <GroupMeter>组</GroupMeter>
     <GrowToHeight>适应高度</GrowToHeight>
     <Header>页眉</Header>
+    <HeaderAlignment>标题对齐</HeaderAlignment>
     <HeaderBackColor>标题背景色</HeaderBackColor>
     <HeaderCanBreak>页眉可以中断</HeaderCanBreak>
     <HeaderCanGrow>页眉可以放大</HeaderCanGrow>
@@ -3883,12 +3956,14 @@
     <HotSelectedBackColor>热门选定背景色</HotSelectedBackColor>
     <HotSelectedForeColor>热门选定前景色</HotSelectedForeColor>
     <HotSelectedGlyphColor>热门选定字形色</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML预览模式</HtmlPreviewMode>
     <HtmlTags>Html Tag</HtmlTags>
     <Hyperlink>超链接</Hyperlink>
     <HyperlinkDataColumn>超链接数据列</HyperlinkDataColumn>
     <HyperlinkPattern>超链接模式</HyperlinkPattern>
     <Icon>图标</Icon>
     <IconAlignment>图标对齐</IconAlignment>
+    <IconBrush>图标刷</IconBrush>
     <IconColor>图标颜色</IconColor>
     <IconSet>图标集</IconSet>
     <IconSetCondition>图标集条件</IconSetCondition>
@@ -3910,6 +3985,7 @@
     <Indent>缩进</Indent>
     <IndividualColor>个人颜色</IndividualColor>
     <InitBy>初始化通过</InitBy>
+    <Initials>缩写</Initials>
     <InitialSelection>初始选择</InitialSelection>
     <InitialSelectionSource>最初选择来源</InitialSelectionSource>
     <Insert>插入</Insert>
@@ -4091,9 +4167,11 @@
     <OnDataManipulation>数据处理中</OnDataManipulation>
     <OnHover>停留</OnHover>
     <OnlyText>仅文本</OnlyText>
+    <Opacity>不透明</Opacity>
     <OpenValues>打开值</OpenValues>
     <Operation>操作</Operation>
     <Options>选项</Options>
+    <Options3D>3D选项</Options3D>
     <Orientation>定向</Orientation>
     <OthersText>其他文本</OthersText>
     <Padding>填充</Padding>
@@ -4110,6 +4188,7 @@
     <Parameters>参数</Parameters>
     <ParametersDateFormat>参数日期格式</ParametersDateFormat>
     <ParametersOrientation>方向参数</ParametersOrientation>
+    <ParameterWidth>宽度参数</ParameterWidth>
     <ParentColumns>父级栏</ParentColumns>
     <ParentSource>父级数据源</ParentSource>
     <ParentValue>父类值</ParentValue>
@@ -4236,10 +4315,13 @@
     <SelectionEnabled>选择启用</SelectionEnabled>
     <SelectionForeColor>选择前景色</SelectionForeColor>
     <SelectionMode>选择模式</SelectionMode>
+    <SelectStyle>选择样式</SelectStyle>
     <SeparatorColor>分隔符颜色</SeparatorColor>
     <SerialNumber>序列号</SerialNumber>
     <Series>序列</Series>
+    <SeriesBorderThickness>边框厚度</SeriesBorderThickness>
     <SeriesColors>颜色系列</SeriesColors>
+    <SeriesCornerRadius>角半径</SeriesCornerRadius>
     <SeriesLabels>序列标签</SeriesLabels>
     <SeriesLabelsBorderColor>标签边框颜色系列</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>标签画刷系列</SeriesLabelsBrush>
@@ -4296,6 +4378,7 @@
     <ShrinkFontToFitMinimumSize>压缩为最小尺寸</ShrinkFontToFitMinimumSize>
     <Side>边</Side>
     <Sides>边</Sides>
+    <SignatureType>类型</SignatureType>
     <Simple>简单</Simple>
     <Size>尺寸</Size>
     <SizeMode>尺寸模式</SizeMode>
@@ -4399,7 +4482,11 @@
     <To>到</To>
     <Today>当天</Today>
     <ToolTip>提示信息</ToolTip>
+    <ToolTipBorder>工具提示边框</ToolTipBorder>
+    <ToolTipBrush>工具提示刷</ToolTipBrush>
+    <ToolTipCornerRadius>工具提示圆角</ToolTipCornerRadius>
     <ToolTipDataColumn>工具提示数据列</ToolTipDataColumn>
+    <ToolTipTextBrush>工具提示文本刷</ToolTipTextBrush>
     <Top>顶端</Top>
     <TopLeft>左上</TopLeft>
     <Topmost>顶端的</Topmost>
@@ -4425,6 +4512,7 @@
     <Type>类型</Type>
     <TypeName>类型名称</TypeName>
     <Types>类型</Types>
+    <UncheckedIcon>未选中图标</UncheckedIcon>
     <Underline>下划线</Underline>
     <UndoLimit>撤销限制</UndoLimit>
     <Unit>单位</Unit>
@@ -4476,6 +4564,7 @@
     <WordWrap>自动换行</WordWrap>
     <Wrap>换行</Wrap>
     <WrapGap>行距</WrapGap>
+    <WrapLine>经位置线</WrapLine>
     <XAxis>X 坐标</XAxis>
     <XTopAxis>X 上坐标</XTopAxis>
     <YAxis>Y 坐标</YAxis>
@@ -4595,6 +4684,35 @@
     <qnSynchronize>是否同步数据存储和数据字典的内容?</qnSynchronize>
     <qnSynchronizeServices>是否同步服务?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>添加位置</AddAPlace>
+    <AddAPlaceDesc>您可以添加位置以便更容易地将Reports保存到云中</AddAPlaceDesc>
+    <ChooseALocation>选择位置</ChooseALocation>
+    <ClearUnpinnedItems>清除未固定项目</ClearUnpinnedItems>
+    <CopyPathToClipboard>复制路径到剪贴板</CopyPathToClipboard>
+    <DateModified>修改日期</DateModified>
+    <Documents>文档</Documents>
+    <DoYouWantTo>您想要:</DoYouWantTo>
+    <LastWeek>上周</LastWeek>
+    <LocalDisk>本地磁盘({0})</LocalDisk>
+    <MessageInvalidFolderName>无效的文件夹名称</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>该名称已经存在了，请使用不同的名称</MessageThatNameAlreadyExists>
+    <MoreLocations>更多位置→</MoreLocations>
+    <Older>旧的</Older>
+    <OtherLocations>其它位置</OtherLocations>
+    <Personal>个人的</Personal>
+    <Pinned>已固定的</Pinned>
+    <PinToList>固定要列表</PinToList>
+    <PinToRecentList>固定到近期列表</PinToRecentList>
+    <RemoveFromList>从列表中删除</RemoveFromList>
+    <ReplaceExistingFile>替换现有的文件</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>使用其他名称保存更改</SaveChangesWithADifferentName>
+    <SaveThisFile>保存此文件</SaveThisFile>
+    <SelectToNavigateUpOneLevel>选择向上一层</SelectToNavigateUpOneLevel>
+    <SetAsDefaultLocation>设置为默认位置</SetAsDefaultLocation>
+    <ThisPC>此电脑</ThisPC>
+    <UnpinFromList>从列表中取消固定</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>激活关系</ActiveRelation>
     <Address>地址</Address>
@@ -4629,6 +4747,8 @@
     <FinishingReport>正在完成报表</FinishingReport>
     <FirstPass>第一通道</FirstPass>
     <FixedBugs>修复错误</FixedBugs>
+    <FromCurrentState>从当前状态</FromCurrentState>
+    <FromDefaultState>从默认状态</FromDefaultState>
     <Gallery>图库</Gallery>
     <GenerateNewCode>生成新代码</GenerateNewCode>
     <History>历史记录</History>
@@ -4778,6 +4898,7 @@
     <NumberOfDayNone>空</NumberOfDayNone>
     <NumberOfDaySecond>第二</NumberOfDaySecond>
     <NumberOfDayThird>第三</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>打开Windows任务计划程序</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>请选择调度程序类型</PleaseSelectSchedulerType>
     <RadioButtonDay>天</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
@@ -4861,6 +4982,18 @@
     <Triangle>三角形</Triangle>
     <VerticalLine>垂直线</VerticalLine>
   </Shapes>
+  <Signature>
+    <DigitalSignatureEmptyWatermark>PDF查看器中的数字签名</DigitalSignatureEmptyWatermark>
+    <FullName>全名</FullName>
+    <Initials>大写字母</Initials>
+    <InsertImage>插入图片</InsertImage>
+    <InsertText>插入文本</InsertText>
+    <LoadSignature>加载签名</LoadSignature>
+    <NoSavedItems>没有保存的项目</NoSavedItems>
+    <SaveSignature>保存签名</SaveSignature>
+    <SignatureSavedSuccessfully>签名保存成功.</SignatureSavedSuccessfully>
+    <UseBrush>使用画笔</UseBrush>
+  </Signature>
   <SystemVariables>
     <Column>返回当前的列号(从1开始).</Column>
     <GroupLine>返回当前的组行号(从1开始）.</GroupLine>
@@ -4988,6 +5121,7 @@
     <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankForm>空白格式</BlankForm>
     <BlankReport>空白报表</BlankReport>
+    <BlankScreen>黑屏</BlankScreen>
     <ButtonBack>&lt; 上一步(&amp;B)</ButtonBack>
     <ButtonCancel>取消</ButtonCancel>
     <ButtonFinish>完成(&amp;F)</ButtonFinish>
