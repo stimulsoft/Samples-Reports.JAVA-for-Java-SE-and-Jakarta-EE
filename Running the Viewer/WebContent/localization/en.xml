@@ -2269,6 +2269,7 @@
     <menuEditDataTransformationNew>New Data Transformation...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Delete</menuEditDelete>
     <menuEditEdit>Edit</menuEditEdit>
+    <menuEditFunctionNew>New Function...</menuEditFunctionNew>
     <menuEditImportRelations>Import Relations...</menuEditImportRelations>
     <menuEditPaste>&amp;Paste</menuEditPaste>
     <menuEditRedo>&amp;Redo</menuEditRedo>
@@ -4396,6 +4397,7 @@
     <Relations>Relations</Relations>
     <RelativeHeight>Relative Height</RelativeHeight>
     <RelativeWidth>Relative Width</RelativeWidth>
+    <RememberSelection>Remember Selection</RememberSelection>
     <RemoveUnusedDataBeforeStart>Remove Unused Data Before Start</RemoveUnusedDataBeforeStart>
     <RenderTo>Render to</RenderTo>
     <ReportAlias>Report Alias</ReportAlias>
@@ -5251,6 +5253,7 @@
     <MoveForward>Move Forward</MoveForward>
     <Order>Order</Order>
     <RibbonClassic>Classic Ribbon</RibbonClassic>
+    <RibbonLayout>Ribbon Layout</RibbonLayout>
     <RibbonSingleLine>Single Line Ribbon</RibbonSingleLine>
     <SendToBack>Send to Back</SendToBack>
     <Size>Size</Size>
