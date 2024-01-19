@@ -28,7 +28,6 @@ import com.stimulsoft.report.enums.StiCalculationMode;
 import com.stimulsoft.report.enums.StiExportFormat;
 import com.stimulsoft.report.export.settings.StiBmpExportSettings;
 import com.stimulsoft.report.export.settings.StiCsvExportSettings;
-import com.stimulsoft.report.export.settings.StiExcel2007ExportSettings;
 import com.stimulsoft.report.export.settings.StiExcelExportSettings;
 import com.stimulsoft.report.export.settings.StiExcelXmlExportSettings;
 import com.stimulsoft.report.export.settings.StiExportSettings;
@@ -42,7 +41,7 @@ import com.stimulsoft.report.export.settings.StiSvgExportSettings;
 import com.stimulsoft.report.export.settings.StiSvgzExportSettings;
 import com.stimulsoft.report.export.settings.StiSylkExportSettings;
 import com.stimulsoft.report.export.settings.StiTxtExportSettings;
-import com.stimulsoft.report.export.settings.StiWord2007ExportSettings;
+import com.stimulsoft.report.export.settings.StiWordExportSettings;
 import com.stimulsoft.report.export.settings.StiXmlExportSettings;
 import com.stimulsoft.report.export.settings.StiXpsExportSettings;
 import com.stimulsoft.viewer.controls.dialogs.StiFileSaveDialog;
@@ -53,7 +52,7 @@ import com.stimulsoft.viewer.form.export.StiImageExportDialog;
 import com.stimulsoft.viewer.form.export.StiPdfExportDialog;
 import com.stimulsoft.viewer.form.export.StiRtfExportDialog;
 import com.stimulsoft.viewer.form.export.StiTxtExportDialog;
-import com.stimulsoft.viewer.form.export.StiWord2007ExportDialog;
+import com.stimulsoft.viewer.form.export.StiWordExportDialog;
 import com.stimulsoft.viewer.form.export.StiXpsExportDialog;
 
 /**
@@ -112,10 +111,10 @@ public class ExportingAReportWithTheExportDialog extends JPanel {
         });
         add(exportBtn);
 
-        exportBtn = new JButton("Export to Microsoft Word 2007");
+        exportBtn = new JButton("Export to Microsoft Word");
         exportBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                export(StiExportFormat.Word2007);
+                export(StiExportFormat.Word);
             }
         });
         add(exportBtn);
@@ -230,8 +229,8 @@ public class ExportingAReportWithTheExportDialog extends JPanel {
         case Csv:
             settings = StiDataExportDialog.showDialog(parentFrame, false, 1);
             break;
-        case Word2007:
-            settings = StiWord2007ExportDialog.showDialog(parentFrame, false, 1);
+        case Word:
+            settings = StiWordExportDialog.showDialog(parentFrame, false, 1);
             break;
         case Pdf:
             settings = StiPdfExportDialog.showDialog(parentFrame, false, 1);
@@ -243,10 +242,10 @@ public class ExportingAReportWithTheExportDialog extends JPanel {
             break;
         }
         if (settings != null) {
-            if (settings instanceof StiExcel2007ExportSettings) {
-                format = StiExportFormat.Excel2007;
-            } else if (settings instanceof StiExcelExportSettings) {
+            if (settings instanceof StiExcelExportSettings) {
                 format = StiExportFormat.Excel;
+            } else if (settings instanceof StiExcelExportSettings) {
+                format = StiExportFormat.ExcelBiff;
             } else if (settings instanceof StiExcelXmlExportSettings) {
                 format = StiExportFormat.ExcelXml;
             } else if (settings instanceof StiSylkExportSettings) {
@@ -277,14 +276,14 @@ public class ExportingAReportWithTheExportDialog extends JPanel {
                     case Rtf:
                         StiExportManager.exportRtf(report, (StiRtfExportSettings) settings, outputStream);
                         break;
-                    case Word2007:
-                        StiExportManager.exportWord2007(report, (StiWord2007ExportSettings) settings, outputStream);
-                        break;
-                    case Excel2007:
-                        StiExportManager.exportExcel2007(report, (StiExcel2007ExportSettings) settings, outputStream);
+                    case Word:
+                        StiExportManager.exportWord(report, (StiWordExportSettings) settings, outputStream);
                         break;
                     case Excel:
                         StiExportManager.exportExcel(report, (StiExcelExportSettings) settings, outputStream);
+                        break;
+                    case ExcelBiff:
+                        StiExportManager.exportExcelBiff(report, (StiExcelExportSettings) settings, outputStream);;
                         break;
                     case ExcelXml:
                         StiExportManager.exportExcelXml(report, (StiExcelXmlExportSettings) settings, outputStream);

@@ -81,10 +81,10 @@ public class ExportingAReportfromCode extends JPanel {
         });
         add(exportBtn);
 
-        exportBtn = new JButton("Export to Microsoft Word 2007");
+        exportBtn = new JButton("Export to Microsoft Word");
         exportBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                export(StiExportFormat.Word2007);
+                export(StiExportFormat.Word);
             }
         });
         add(exportBtn);
@@ -105,10 +105,10 @@ public class ExportingAReportfromCode extends JPanel {
         });
         add(exportBtn);
 
-        exportBtn = new JButton("Export to Microsoft Excel 2007");
+        exportBtn = new JButton("Export to Microsoft Excel 97-2003");
         exportBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                export(StiExportFormat.Excel2007);
+                export(StiExportFormat.ExcelBiff);
             }
         });
         add(exportBtn);
@@ -211,8 +211,8 @@ public class ExportingAReportfromCode extends JPanel {
                 case Rtf:
                     StiExportManager.exportRtf(report, outputStream);
                     break;
-                case Word2007:
-                    StiExportManager.exportWord2007(report, outputStream);
+                case Word:
+                    StiExportManager.exportWord(report, outputStream);
                     break;
                 case Excel:
                     StiExportManager.exportExcel(report, outputStream);
@@ -220,8 +220,8 @@ public class ExportingAReportfromCode extends JPanel {
                 case ExcelXml:
                     StiExportManager.exportExcelXml(report, outputStream);
                     break;
-                case Excel2007:
-                    StiExportManager.exportExcel2007(report, outputStream);
+                case ExcelBiff:
+                    StiExportManager.exportExcelBiff(report, outputStream);
                     break;
                 case Csv:
                     StiExportManager.exportCsv(report, outputStream);
