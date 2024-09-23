@@ -20,7 +20,7 @@
     <dependency>
       <groupId>com.stimulsoft</groupId>
       <artifactId>stimulsoft-reports-libs</artifactId>
-      <version>2024.3.5</version>
+      <version>2024.3.6</version>
     </dependency>
   </dependencies>
 </project>
