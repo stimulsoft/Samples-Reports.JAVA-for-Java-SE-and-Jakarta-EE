@@ -33,7 +33,7 @@
     <dependency>
       <groupId>com.stimulsoft</groupId>
       <artifactId>stimulsoft-reports-libs</artifactId>
-      <version>2025.1.6</version>
+      <version>2025.2.1</version>
     </dependency>
   </dependencies>
   <build>
