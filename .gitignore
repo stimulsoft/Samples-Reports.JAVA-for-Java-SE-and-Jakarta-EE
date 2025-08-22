@@ -5,3 +5,4 @@ webviewer/target
 target
 samples/bin
 package-lock.json
+*.project
