@@ -25,6 +25,6 @@ Stimulsoft Reports.JAVA is a reporting tool intended for interaction and work of
 * [Live Demo](http://demo.stimulsoft.com/#Net)
 * [Product Page](https://www.stimulsoft.com/en/products/reports-java)
 * [Free Download](https://www.stimulsoft.com/en/downloads)
-* [Maven](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.stimulsoft%22%20AND%20a%3A%22stimulsoft-reports-libs%22)
+* [Maven](https://central.sonatype.com/artifact/com.stimulsoft/stimulsoft-reports-libs)
 * [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/reports_java.htm)
 * [License](LICENSE.md)
