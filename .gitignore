@@ -5,4 +5,5 @@ webviewer/target
 target
 samples/bin
 package-lock.json
-*.project
+/Running the React Viewer with Jakarta EE/.settings
+.metadata

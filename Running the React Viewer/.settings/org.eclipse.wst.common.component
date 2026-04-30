@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                    
+    
+    
+    
+    <wb-module deploy-name="webviewer-0.0.1-SNAPSHOT">
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="stimulsoft-reports-webdesigner-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-webdesigner/stimulsoft.reports-webdesigner">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-report-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-report/stimulsoft.reports-report">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-web-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-web/stimulsoft.reports-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-demo-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-demo/stimulsoft.reports-demo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-base-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-base/stimulsoft.reports-base">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-lib-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-lib/stimulsoft.reports-lib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-viewer-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-viewer/stimulsoft.reports-viewer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-samples-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-samples/stimulsoft.reports-samples">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-webviewer-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-webviewer/stimulsoft.reports-webviewer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stimulsoft-reports-blockly-2026.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stimulsoft.reports-blockly/stimulsoft.reports-blockly">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                        
+        
+        
+        
+        <property name="java-output-path" value="/Running the React Viewer/build/classes"/>
+                        
+        
+        <property name="context-root" value="viewer"/>
+                                    
+    
+    
+    
+    </wb-module>
+                
+
+
+
+</project-modules>
