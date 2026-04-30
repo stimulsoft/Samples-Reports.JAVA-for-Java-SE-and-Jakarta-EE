@@ -11,6 +11,12 @@ This repository contains a set of examples in different folders:
 * [Running the Designer](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Designer)
 * [Running the Viewer](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Viewer)
 * [Running the Designer and Viewer with Spring Boot](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Designer%20and%20Viewer%20with%20Spring%20Boot)
+* [Running the Angular Viewer](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Angular%20Viewer)
+* [Running the Angular Viewer with Jakarta EE](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Angular%20Viewer%20with%20Jakarta%20EE)
+* [Running the Angular Viewer with Spring Boot](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Angular%20Viewer%20with%20Spring%20Boot)
+* [Running the React Viewer](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20React%20Viewer)
+* [Running the React Viewer with Jakarta EE](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20React%20Viewer%20with%20Jakarta%20EE)
+* [Running the React Viewer with Spring Boot](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20React%20Viewer%20with%20Spring%20Boot)
 
 A few examples of working with a report using Java code:
 * [Java Samples](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/samples/src/com/stimulsoft/samples)
