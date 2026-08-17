@@ -1,17 +1,18 @@
-import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule, provideZonelessChangeDetection } from '@angular/core';
 import { StimulsoftViewerModule } from 'stimulsoft-viewer-angular';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-@NgModule({ declarations: [
+@NgModule({
+    declarations: [
         AppComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
-        BrowserAnimationsModule,
         StimulsoftViewerModule,
-        FormsModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
+        FormsModule],
+    providers: [provideZonelessChangeDetection(), provideHttpClient(withInterceptorsFromDi())]
+})
 export class AppModule { }
