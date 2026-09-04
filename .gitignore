@@ -5,6 +5,5 @@ webviewer/target
 target
 samples/bin
 package-lock.json
-/Running the React Viewer with Jakarta EE/.settings
 .metadata
 /Running the Designer and Viewer with Spring Boot/bin
