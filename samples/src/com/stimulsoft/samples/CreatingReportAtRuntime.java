@@ -136,8 +136,7 @@ public class CreatingReportAtRuntime extends JPanel {
 
         report.Render();
 
-        viewerPanel.getStiViewModel().getEventDispatcher()
-                   .dispatchStiEvent(new StiViewCommonEvent(StiViewCommonEvent.DOCUMENT_FILE_LOADED, new StiDocument(report), null));
+        viewerPanel.getStiViewModel().getEventDispatcher().dispatchStiEvent(new StiViewCommonEvent(StiViewCommonEvent.DOCUMENT_FILE_LOADED, new StiDocument(report), null));
 
     }
 
@@ -146,7 +145,7 @@ public class CreatingReportAtRuntime extends JPanel {
             public void run() {
                 try {
                     JFrame frame = new JFrame();
-                    frame.add(new CreateReport(frame));
+                    frame.add(new CreatingReportAtRuntime(frame));
                     frame.setSize(FRAME_SIZE);
                     frame.setLocationRelativeTo(null);
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

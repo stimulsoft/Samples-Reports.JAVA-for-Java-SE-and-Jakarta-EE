@@ -283,7 +283,8 @@ public class ExportingAReportWithTheExportDialog extends JPanel {
                         StiExportManager.exportExcel(report, (StiExcelExportSettings) settings, outputStream);
                         break;
                     case ExcelBiff:
-                        StiExportManager.exportExcelBiff(report, (StiExcelExportSettings) settings, outputStream);;
+                        StiExportManager.exportExcelBiff(report, (StiExcelExportSettings) settings, outputStream);
+                        ;
                         break;
                     case ExcelXml:
                         StiExportManager.exportExcelXml(report, (StiExcelXmlExportSettings) settings, outputStream);
@@ -364,7 +365,7 @@ public class ExportingAReportWithTheExportDialog extends JPanel {
             public void run() {
                 try {
                     JFrame frame = new JFrame();
-                    frame.add(new ExportReportSettings(frame));
+                    frame.add(new ExportingAReportWithTheExportDialog(frame));
                     frame.setSize(FRAME_SIZE);
                     frame.setLocationRelativeTo(null);
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -58,7 +58,7 @@ public class PrintingTheReportTemplate extends JPanel {
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 StiReport report = getReport();
-                PrinterJob printerJob = StiPrintHelper.preparePrinterJob(report.getRenderedPages());
+                PrinterJob printerJob = PrinterJob.getPrinterJob();
                 try {
                     StiPrintHelper.printJob(printerJob, report, true);
                 } catch (PrinterException pe) {
@@ -81,7 +81,7 @@ public class PrintingTheReportTemplate extends JPanel {
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 StiReport report = getReport();
-                PrinterJob printerJob = StiPrintHelper.preparePrinterJob(report.getRenderedPages());
+                PrinterJob printerJob = PrinterJob.getPrinterJob();
                 try {
                     AttributeSet attr_set = new HashAttributeSet();
                     PrintService printService = (PrintService) printerList.getSelectedItem();

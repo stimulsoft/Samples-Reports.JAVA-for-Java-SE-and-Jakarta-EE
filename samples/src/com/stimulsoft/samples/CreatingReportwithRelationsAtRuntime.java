@@ -129,8 +129,7 @@ public class CreatingReportwithRelationsAtRuntime extends JPanel {
 
         report.Render();
 
-        viewerPanel.getStiViewModel().getEventDispatcher()
-                   .dispatchStiEvent(new StiViewCommonEvent(StiViewCommonEvent.DOCUMENT_FILE_LOADED, new StiDocument(report), null));
+        viewerPanel.getStiViewModel().getEventDispatcher().dispatchStiEvent(new StiViewCommonEvent(StiViewCommonEvent.DOCUMENT_FILE_LOADED, new StiDocument(report), null));
     }
 
     public static void main(final String[] args) {
@@ -138,7 +137,7 @@ public class CreatingReportwithRelationsAtRuntime extends JPanel {
             public void run() {
                 try {
                     JFrame frame = new JFrame();
-                    frame.add(new CreateRelationsReport(frame));
+                    frame.add(new CreatingReportwithRelationsAtRuntime(frame));
                     frame.setSize(FRAME_SIZE);
                     frame.setLocationRelativeTo(null);
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
