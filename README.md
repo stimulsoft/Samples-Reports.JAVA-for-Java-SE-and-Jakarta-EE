@@ -4,6 +4,7 @@
 
 ## Overview
 This repository contains a set of examples in different folders:
+* [Creating a Custom Button on the Viewer Toolbar](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Creating%20a%20Custom%20Button%20on%20the%20Viewer%20Toolbar)
 * [Running the Designer Jakarta EE](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Designer%20Jakarta%20EE)
 * [Running the Viewer Jakarta EE](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Viewer%20Jakarta%20EE)
 * [Running the Designer and Viewer with Jakarta Faces](https://github.com/stimulsoft/Samples-Reports.JAVA-for-Java-SE-and-Jakarta-EE/tree/master/Running%20the%20Designer%20and%20Viewer%20with%20Jakarta%20Faces)
