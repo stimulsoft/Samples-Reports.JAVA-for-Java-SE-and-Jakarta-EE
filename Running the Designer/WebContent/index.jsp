@@ -27,7 +27,7 @@
 	    final String reportPath = request.getSession().getServletContext().getRealPath("/reports/Master-Detail.mrt");
 	    final String savePath = request.getSession().getServletContext().getRealPath("/save/");
 	    
-	    com.stimulsoft.base.licenses.StiLicense.setKey("ff");
+	    //com.stimulsoft.base.licenses.StiLicense.setKey("ff");
 
 	    StiWebDesignerOptions options = new StiWebDesignerOptions();
 	    //options.setLocalization(request.getSession().getServletContext().getRealPath("/localization/de.xml"));

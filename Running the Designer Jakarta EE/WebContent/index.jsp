@@ -37,7 +37,7 @@
 		final String xsdPath = request.getSession().getServletContext().getRealPath("/data/Demo.xsd");		
 	    final String savePath = request.getSession().getServletContext().getRealPath("/save/");
 	    
-	    com.stimulsoft.base.licenses.StiLicense.setKey("ff");
+	    //com.stimulsoft.base.licenses.StiLicense.setKey("ff");
 
 	    StiWebDesignerOptions options = new StiWebDesignerOptions();
 	    //options.setLocalization(request.getSession().getServletContext().getRealPath("/localization/de.xml"));
