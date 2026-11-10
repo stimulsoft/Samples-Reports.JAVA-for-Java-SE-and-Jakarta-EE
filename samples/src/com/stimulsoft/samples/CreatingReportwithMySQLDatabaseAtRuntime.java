@@ -24,6 +24,7 @@ import com.stimulsoft.report.dictionary.StiDataColumnsCollection;
 import com.stimulsoft.report.dictionary.StiDictionary;
 import com.stimulsoft.report.dictionary.adapters.StiMySqlAdapter;
 import com.stimulsoft.report.dictionary.dataSources.StiMySqlSource;
+import com.stimulsoft.report.dictionary.databases.StiJDBCDatabase;
 import com.stimulsoft.report.dictionary.databases.StiMySqlDatabase;
 import com.stimulsoft.report.saveLoad.StiDocument;
 import com.stimulsoft.report.utils.data.StiDataColumnsUtil;
@@ -49,8 +50,8 @@ public class CreatingReportwithMySQLDatabaseAtRuntime {
         source.setColumns(new StiDataColumnsCollection());
         StiMySqlAdapter adapter = new StiMySqlAdapter(db.getConnectionString());
         Class.forName(adapter.getDriverName());
-        Connection con = com.stimulsoft.webdesigner.helper.StiDictionaryHelper.getConnection(adapter.getJdbcParameters());
-        StiTableFieldsRequest request = StiDataColumnsUtil.getFields(con, source.getQuery(), source);
+        Connection con = StiJDBCDatabase.getConnection(adapter.getJdbcParameters());
+        StiTableFieldsRequest request = StiDataColumnsUtil.getFields(con, source.getQuery(), source, db);
         for (StiSqlField field : request.getColumns()) {
             source.getColumns().add(new StiDataColumn(field.getName(), field.getName(), field.getSystemType()));
         }
